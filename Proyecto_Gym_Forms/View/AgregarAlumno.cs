@@ -73,5 +73,15 @@ namespace Proyecto_Gym_Forms.View
             cboSexo.DataSource = sexos;
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            borrarCampos();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

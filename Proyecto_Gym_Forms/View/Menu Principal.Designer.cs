@@ -53,6 +53,7 @@
             this.btnPagarCuota.TabIndex = 1;
             this.btnPagarCuota.Text = "Pagar cuota";
             this.btnPagarCuota.UseVisualStyleBackColor = true;
+            this.btnPagarCuota.Click += new System.EventHandler(this.btnPagarCuota_Click);
             // 
             // btnActualizarAlumno
             // 

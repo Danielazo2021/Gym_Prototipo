@@ -38,5 +38,11 @@ namespace Proyecto_Gym_Forms.View
         {
             this.Close();
         }
+
+        private void btnPagarCuota_Click(object sender, EventArgs e)
+        {
+            PagarCuota pagarCuota = new PagarCuota();
+            pagarCuota.Show();
+        }
     }
 }

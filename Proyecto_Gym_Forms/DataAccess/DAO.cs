@@ -98,11 +98,14 @@ namespace Proyecto_Gym_Forms.DataAccess
                 cnn.Open();
                 cmdMaestro.Connection = cnn;
                 cmdMaestro.CommandType = CommandType.StoredProcedure;
-                cmdMaestro.CommandText = "PA_CobrarCuota";// falta crear PA
+                cmdMaestro.CommandText = "PA_Cobrar_Cuota";
                 cmdMaestro.Parameters.AddWithValue("@dni", datosCuotas.alumno.dni);
-                cmdMaestro.Parameters.AddWithValue("@fechaInicio", datosCuotas.fechaInicio);
-                cmdMaestro.Parameters.AddWithValue("@fechaFin", datosCuotas.fechaVencimiento);               
+                cmdMaestro.Parameters.AddWithValue("@fechaDeInicio", datosCuotas.fechaInicio);
+                cmdMaestro.Parameters.AddWithValue("@fechaDeFin", datosCuotas.fechaVencimiento);
+                cmdMaestro.Parameters.AddWithValue("@valorDeCuota", datosCuotas.valorCuota);
+                cmdMaestro.Parameters.AddWithValue("@responsableDelCobro", datosCuotas.responsableDeCobro);
                 cmdMaestro.Parameters.AddWithValue("@observaciones", datosCuotas.observaciones);
+                cmdMaestro.Parameters.AddWithValue("@formaDePago", datosCuotas.formaDePago);
 
                 cmdMaestro.ExecuteNonQuery();
                 confirmacion = true;

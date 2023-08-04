@@ -125,7 +125,7 @@ namespace Proyecto_Gym_Forms.View
         {
             borrarCampos();
             habilitarCampos(false);
-            //borrar los campos, desahibilitar
+            
         }
         private void borrarCampos()
         {

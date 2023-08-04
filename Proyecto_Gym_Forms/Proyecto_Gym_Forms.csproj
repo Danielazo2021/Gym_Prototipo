@@ -226,11 +226,11 @@
     <Compile Include="View\Menu Principal.Designer.cs">
       <DependentUpon>Menu Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\RenovarCuota.cs">
+    <Compile Include="View\PagarCuota.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\RenovarCuota.Designer.cs">
-      <DependentUpon>RenovarCuota.cs</DependentUpon>
+    <Compile Include="View\PagarCuota.Designer.cs">
+      <DependentUpon>PagarCuota.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="View\AgregarAlumno.resx">
       <DependentUpon>AgregarAlumno.cs</DependentUpon>
@@ -254,8 +254,8 @@
     <EmbeddedResource Include="View\Menu Principal.resx">
       <DependentUpon>Menu Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\RenovarCuota.resx">
-      <DependentUpon>RenovarCuota.cs</DependentUpon>
+    <EmbeddedResource Include="View\PagarCuota.resx">
+      <DependentUpon>PagarCuota.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="GYM_SergioDataSet.xsc">
       <DependentUpon>GYM_SergioDataSet.xsd</DependentUpon>
