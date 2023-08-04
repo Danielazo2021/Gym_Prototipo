@@ -1,0 +1,198 @@
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.AssemblyReference.cache
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.AgregarAlumno.resources
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.EditarAlumno.resources
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.InicioSecion.resources
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.Properties.Resources.resources
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.RenovarCuota.resources
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.GenerateResource.cache
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.CoreCompileInputs.cache
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\x86\SqlServerSpatial160.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\x64\SqlServerSpatial160.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Proyecto_Gym_Forms.exe.config
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Proyecto_Gym_Forms.exe
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Proyecto_Gym_Forms.pdb
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Azure.Core.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Azure.Identity.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Buffers.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Memory.Data.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Memory.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.AccessControl.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.Permissions.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Text.Json.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.ValueTuple.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Azure.Core.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Azure.Identity.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Buffers.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Memory.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Memory.Data.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.AccessControl.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.Permissions.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Text.Json.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\System.ValueTuple.xml
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.CopyComplete
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.exe
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.pdb
+C:\Users\54351\source\repos\Proyecto_Gym_Forms\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.Menu_Principal.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\x86\SqlServerSpatial160.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\x64\SqlServerSpatial160.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Proyecto_Gym_Forms.exe.config
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Proyecto_Gym_Forms.exe
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Proyecto_Gym_Forms.pdb
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Azure.Core.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Azure.Identity.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Server.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Buffers.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Memory.Data.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Memory.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.AccessControl.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.Permissions.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Text.Json.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.ValueTuple.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Azure.Core.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Azure.Identity.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Server.pdb
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\Microsoft.SqlServer.Server.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Buffers.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Memory.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Memory.Data.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.AccessControl.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.Permissions.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Text.Json.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\System.ValueTuple.xml
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.AssemblyReference.cache
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.AgregarAlumno.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.EditarAlumno.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.InicioSecion.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.Properties.Resources.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.Menu_Principal.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.RenovarCuota.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.GenerateResource.cache
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.CoreCompileInputs.cache
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.CopyComplete
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.exe
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.pdb
