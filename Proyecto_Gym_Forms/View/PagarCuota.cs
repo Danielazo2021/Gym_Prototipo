@@ -50,6 +50,29 @@ namespace Proyecto_Gym_Forms.View
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
+
+            if (txtDNI.Text == "")
+            {
+                MessageBox.Show("debe ingresar el DNI");
+                return;
+            }
+            if (cboFormasDePago.Text == "")
+            {
+                MessageBox.Show("debe seleccionar una forma de pago");
+                return;
+            }
+            if (txtMontoCuota.Text == "")
+            {
+                MessageBox.Show("debe ingresar el Monto de la cuota");
+                return;
+            }
+            if (txtResponsable.Text == "")
+            {
+                MessageBox.Show("debe ingresar el Responsable del cobro");
+                return;
+            }
+            
+
             DatosCuotas datosCuota = new DatosCuotas();
             datosCuota.alumno = InicioSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
             datosCuota.valorCuota = Convert.ToInt32(txtMontoCuota.Text);
@@ -62,13 +85,13 @@ namespace Proyecto_Gym_Forms.View
 
             if(InicioSecion.service.cobrarCuota(datosCuota))
             {
-                MessageBox.Show("Se registro el cobro con exito");
+                MessageBox.Show("Se registro el cobro con exito", "Exitoso!!");
                 limpiarCampos();
 
             }
             else
             {
-                MessageBox.Show("Ocurrio un error al registrar cobro");
+                MessageBox.Show("Ocurrio un error al registrar cobro","Error!");
             }
 
 
@@ -93,7 +116,7 @@ namespace Proyecto_Gym_Forms.View
         {
             if (txtDNI.Text == "")
             {
-                MessageBox.Show("Debe ingresar el DNI del alumno que quiere pagar la cuota");
+                MessageBox.Show("Debe ingresar el DNI del alumno que quiere pagar la cuota", "Atención");
                 return;
             }
 
@@ -101,7 +124,7 @@ namespace Proyecto_Gym_Forms.View
 
             if (alumno.nombre == null)
             {
-                MessageBox.Show("Atención, el DNI no existe en nuestros registros");
+                MessageBox.Show("Atención, el DNI no existe en nuestros registros","Atención");
                 return;
             }
             else

@@ -37,9 +37,10 @@
             // 
             // btnNuevoAlumno
             // 
-            this.btnNuevoAlumno.Location = new System.Drawing.Point(248, 43);
+            this.btnNuevoAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevoAlumno.Location = new System.Drawing.Point(265, 55);
             this.btnNuevoAlumno.Name = "btnNuevoAlumno";
-            this.btnNuevoAlumno.Size = new System.Drawing.Size(113, 60);
+            this.btnNuevoAlumno.Size = new System.Drawing.Size(163, 122);
             this.btnNuevoAlumno.TabIndex = 0;
             this.btnNuevoAlumno.Text = "Registrar nuevo alumno";
             this.btnNuevoAlumno.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // 
             // btnPagarCuota
             // 
-            this.btnPagarCuota.Location = new System.Drawing.Point(247, 119);
+            this.btnPagarCuota.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagarCuota.Location = new System.Drawing.Point(479, 55);
             this.btnPagarCuota.Name = "btnPagarCuota";
-            this.btnPagarCuota.Size = new System.Drawing.Size(114, 60);
+            this.btnPagarCuota.Size = new System.Drawing.Size(171, 122);
             this.btnPagarCuota.TabIndex = 1;
             this.btnPagarCuota.Text = "Pagar cuota";
             this.btnPagarCuota.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@
             // 
             // btnActualizarAlumno
             // 
-            this.btnActualizarAlumno.Location = new System.Drawing.Point(248, 200);
+            this.btnActualizarAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarAlumno.Location = new System.Drawing.Point(265, 194);
             this.btnActualizarAlumno.Name = "btnActualizarAlumno";
-            this.btnActualizarAlumno.Size = new System.Drawing.Size(114, 55);
+            this.btnActualizarAlumno.Size = new System.Drawing.Size(163, 123);
             this.btnActualizarAlumno.TabIndex = 2;
             this.btnActualizarAlumno.Text = "Actualizar datos del alumno";
             this.btnActualizarAlumno.UseVisualStyleBackColor = true;
@@ -67,18 +70,20 @@
             // 
             // btnVerificarVencimiento
             // 
-            this.btnVerificarVencimiento.Location = new System.Drawing.Point(247, 278);
+            this.btnVerificarVencimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerificarVencimiento.Location = new System.Drawing.Point(479, 194);
             this.btnVerificarVencimiento.Name = "btnVerificarVencimiento";
-            this.btnVerificarVencimiento.Size = new System.Drawing.Size(114, 48);
+            this.btnVerificarVencimiento.Size = new System.Drawing.Size(171, 128);
             this.btnVerificarVencimiento.TabIndex = 3;
             this.btnVerificarVencimiento.Text = "Verificar Vencimiento";
             this.btnVerificarVencimiento.UseVisualStyleBackColor = true;
+            this.btnVerificarVencimiento.Click += new System.EventHandler(this.btnVerificarVencimiento_Click);
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(643, 359);
+            this.btnBack.Location = new System.Drawing.Point(830, 352);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(114, 48);
+            this.btnBack.Size = new System.Drawing.Size(158, 62);
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "Volver atrás";
             this.btnBack.UseVisualStyleBackColor = true;

@@ -44,5 +44,12 @@ namespace Proyecto_Gym_Forms.View
             PagarCuota pagarCuota = new PagarCuota();
             pagarCuota.Show();
         }
+
+        private void btnVerificarVencimiento_Click(object sender, EventArgs e)
+        {
+            VerificarVencimiento verificarVencimiento = new VerificarVencimiento();
+            verificarVencimiento.Show();
+
+        }
     }
 }

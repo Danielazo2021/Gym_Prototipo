@@ -196,3 +196,4 @@ C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Fo
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.exe
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.pdb
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.PagarCuota.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.VerificarVencimiento.resources

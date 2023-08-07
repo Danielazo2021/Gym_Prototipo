@@ -232,6 +232,12 @@
     <Compile Include="View\PagarCuota.Designer.cs">
       <DependentUpon>PagarCuota.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\VerificarVencimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\VerificarVencimiento.Designer.cs">
+      <DependentUpon>VerificarVencimiento.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\AgregarAlumno.resx">
       <DependentUpon>AgregarAlumno.cs</DependentUpon>
     </EmbeddedResource>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\PagarCuota.resx">
       <DependentUpon>PagarCuota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\VerificarVencimiento.resx">
+      <DependentUpon>VerificarVencimiento.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="GYM_SergioDataSet.xsc">
       <DependentUpon>GYM_SergioDataSet.xsd</DependentUpon>

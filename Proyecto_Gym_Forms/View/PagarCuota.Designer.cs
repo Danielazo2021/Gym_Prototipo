@@ -112,7 +112,7 @@
             // 
             // txtResponsable
             // 
-            this.txtResponsable.Location = new System.Drawing.Point(453, 262);
+            this.txtResponsable.Location = new System.Drawing.Point(435, 262);
             this.txtResponsable.Name = "txtResponsable";
             this.txtResponsable.Size = new System.Drawing.Size(121, 20);
             this.txtResponsable.TabIndex = 22;
@@ -121,11 +121,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(216, 262);
+            this.label4.Location = new System.Drawing.Point(230, 262);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(221, 20);
+            this.label4.Size = new System.Drawing.Size(172, 20);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Responsable de actualizacion";
+            this.label4.Text = "Responsable del cobro";
             // 
             // btnBuscar
             // 
