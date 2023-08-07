@@ -22,7 +22,18 @@ namespace Proyecto_Gym_Forms.View
 
         }
 
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            //llamar al sp  y cargar el source del dgv
+            dgvResultados.DataSource = null;
 
+            dgvResultados.DataSource= InicioSecion.service.buscarProximosVencimientos(dtpDesde.Value, dtpHasta.Value);
+
+        }
     }
 }

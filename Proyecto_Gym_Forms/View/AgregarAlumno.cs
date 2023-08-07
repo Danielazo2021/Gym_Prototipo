@@ -16,6 +16,7 @@ namespace Proyecto_Gym_Forms.View
         public AgregarAlumno()
         {
             InitializeComponent();
+            dtpFechaDeAlta.Enabled = false;
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -34,6 +35,7 @@ namespace Proyecto_Gym_Forms.View
                 {
                     alumno.observaciones = txtObservaciones.Text;
                 }
+            alumno.fechaAlta=dtpFechaDeAlta.Value;
 
             if (InicioSecion.service.consultaAlumno(alumno.dni).nombre != null)
             {

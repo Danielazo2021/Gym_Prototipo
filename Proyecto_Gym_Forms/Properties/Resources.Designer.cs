@@ -61,7 +61,7 @@ namespace Proyecto_Gym_Forms.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=LAPTOP-SJP45N95;Initial Catalog=GYM_Sergio;Integrated Security=True;TrustServerCertificate=true.
+        ///   Busca una cadena traducida similar a Data Source=LAPTOP-SJP45N95;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true.
         /// </summary>
         internal static string conexionBD {
             get {

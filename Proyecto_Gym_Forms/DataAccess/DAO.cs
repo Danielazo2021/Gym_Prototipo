@@ -19,20 +19,20 @@ namespace Proyecto_Gym_Forms.DataAccess
         public bool agregarAlumno(Alumno alumno)
         {
             bool confirmacion = false;
-
             try
             {
                 SqlCommand cmdMaestro = new SqlCommand();
                 cnn.Open();
                 cmdMaestro.Connection = cnn;
                 cmdMaestro.CommandType = CommandType.StoredProcedure;
-                cmdMaestro.CommandText = "PA_Ingresar_Alumno";// falta crear PA
+                cmdMaestro.CommandText = "PA_Ingresar_Alumno";
                 cmdMaestro.Parameters.AddWithValue("@dni", alumno.dni);
                 cmdMaestro.Parameters.AddWithValue("@nombre", alumno.nombre);
                 cmdMaestro.Parameters.AddWithValue("@apellido", alumno.apellido);
                 cmdMaestro.Parameters.AddWithValue("@edad", alumno.edad);
                 cmdMaestro.Parameters.AddWithValue("@sexo", alumno.sexo);
                 cmdMaestro.Parameters.AddWithValue("@observaciones", alumno.observaciones);
+                cmdMaestro.Parameters.AddWithValue("@fechaDeAlta", alumno.fechaAlta);
 
                 cmdMaestro.ExecuteNonQuery();
                 confirmacion = true;
@@ -55,7 +55,6 @@ namespace Proyecto_Gym_Forms.DataAccess
         public bool actualizarAlumno(Alumno alumno)
         {
             bool confirmacion = false;
-
             try
             {
                 SqlCommand cmdMaestro = new SqlCommand();
@@ -75,8 +74,7 @@ namespace Proyecto_Gym_Forms.DataAccess
 
             }
             catch (Exception e)
-            {
-                
+            {                
             }
             finally
             {
@@ -91,7 +89,6 @@ namespace Proyecto_Gym_Forms.DataAccess
         public bool cobrarCuota(DatosCuotas datosCuotas)
         {
             bool confirmacion = false;
-
             try
             {
                 SqlCommand cmdMaestro = new SqlCommand();
@@ -101,7 +98,7 @@ namespace Proyecto_Gym_Forms.DataAccess
                 cmdMaestro.CommandText = "PA_Cobrar_Cuota";
                 cmdMaestro.Parameters.AddWithValue("@dni", datosCuotas.alumno.dni);
                 cmdMaestro.Parameters.AddWithValue("@fechaDeInicio", datosCuotas.fechaInicio);
-                cmdMaestro.Parameters.AddWithValue("@fechaDeFin", datosCuotas.fechaVencimiento);
+                cmdMaestro.Parameters.AddWithValue("@fechaVencimiento", datosCuotas.fechaVencimiento);
                 cmdMaestro.Parameters.AddWithValue("@valorDeCuota", datosCuotas.valorCuota);
                 cmdMaestro.Parameters.AddWithValue("@responsableDelCobro", datosCuotas.responsableDeCobro);
                 cmdMaestro.Parameters.AddWithValue("@observaciones", datosCuotas.observaciones);
@@ -126,7 +123,6 @@ namespace Proyecto_Gym_Forms.DataAccess
         public Alumno consultaAlumno(int dni)
         {
            Alumno resultado=new Alumno();
-
             try
             {
                 cnn.Open();
@@ -145,8 +141,7 @@ namespace Proyecto_Gym_Forms.DataAccess
                     resultado.apellido = row["apellido"].ToString();
                     resultado.edad = Convert.ToInt32(row["edad"]);
                     resultado.sexo = row["sexo"].ToString();
-                    resultado.observaciones = row["observaciones"].ToString();
-                    //falta la edad
+                    resultado.observaciones = row["observaciones"].ToString();                
 
                 }
                 cnn.Close();
@@ -154,18 +149,13 @@ namespace Proyecto_Gym_Forms.DataAccess
             }
             catch (Exception ex)
             {
-
-
             }
             finally
             {
                 if (cnn != null && cnn.State == ConnectionState.Open)
                     cnn.Close();
             }
-
             return resultado;
-
-
         }
 
         public Alumno consultaAlumno(string nombre, string apellido)
@@ -208,6 +198,64 @@ namespace Proyecto_Gym_Forms.DataAccess
             }
 
             return status;
+        }
+
+        public DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta)
+        {
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_Vencimiento_Por_Fecha", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;                
+
+                cmd.Parameters.AddWithValue("@desde", desde);
+                cmd.Parameters.AddWithValue("@hasta", hasta);
+                tabla.Load(cmd.ExecuteReader());
+               
+                cnn.Close();
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
+
+
+
+        }
+
+        public DataTable consultaAlumno(string nombre)
+        {
+            DataTable tabla = new DataTable();          
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_buscar_por_nombre_Solo", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+               
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                tabla.Load(cmd.ExecuteReader());                               
+                cnn.Close();
+             
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+           
+            return tabla;
         }
     }
 }

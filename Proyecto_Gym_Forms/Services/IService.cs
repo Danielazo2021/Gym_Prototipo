@@ -1,6 +1,7 @@
 ﻿using Proyecto_Gym_Forms.Model;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace Proyecto_Gym_Forms.Services
     {
         bool agregarAlumno(Alumno alumno);
         Alumno consultaAlumno(int dni);
+       DataTable consultaAlumno(string  nombre);
         Alumno consultaAlumno(string nombre, string Apellido);
         bool actualizarAlumno(Alumno alumno);
 
@@ -18,8 +20,6 @@ namespace Proyecto_Gym_Forms.Services
         List<DatosCuotas> consultarCuotas(DateTime fecha);
 
         bool validarLogin(Login login);
-
-
-
+        DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta);
     }
 }

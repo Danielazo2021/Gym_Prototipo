@@ -2,7 +2,9 @@
 using Proyecto_Gym_Forms.Model;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,6 +30,11 @@ namespace Proyecto_Gym_Forms.Services
            return  dao.agregarAlumno(alumno);
         }
 
+        public DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta)
+        {
+            return dao.buscarProximosVencimientos(desde, hasta);
+        }
+
         public bool cobrarCuota(DatosCuotas datosCuotas)
         {
              return dao.cobrarCuota(datosCuotas);
@@ -41,6 +48,11 @@ namespace Proyecto_Gym_Forms.Services
         public Alumno consultaAlumno(string nombre, string apellido)
         {
             return dao.consultaAlumno(nombre , apellido);
+        }
+
+        public DataTable consultaAlumno(string nombre)
+        {
+            return dao.consultaAlumno(nombre);
         }
 
         public List<DatosCuotas> consultarCuotas(DateTime fecha)

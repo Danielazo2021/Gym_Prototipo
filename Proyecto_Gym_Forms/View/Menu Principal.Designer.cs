@@ -33,12 +33,14 @@
             this.btnActualizarAlumno = new System.Windows.Forms.Button();
             this.btnVerificarVencimiento = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
+            this.btnBuscarPorNombreYApellido = new System.Windows.Forms.Button();
+            this.btnRegistrarAsistencia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNuevoAlumno
             // 
             this.btnNuevoAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevoAlumno.Location = new System.Drawing.Point(265, 55);
+            this.btnNuevoAlumno.Location = new System.Drawing.Point(70, 56);
             this.btnNuevoAlumno.Name = "btnNuevoAlumno";
             this.btnNuevoAlumno.Size = new System.Drawing.Size(163, 122);
             this.btnNuevoAlumno.TabIndex = 0;
@@ -49,7 +51,7 @@
             // btnPagarCuota
             // 
             this.btnPagarCuota.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagarCuota.Location = new System.Drawing.Point(479, 55);
+            this.btnPagarCuota.Location = new System.Drawing.Point(284, 56);
             this.btnPagarCuota.Name = "btnPagarCuota";
             this.btnPagarCuota.Size = new System.Drawing.Size(171, 122);
             this.btnPagarCuota.TabIndex = 1;
@@ -60,7 +62,7 @@
             // btnActualizarAlumno
             // 
             this.btnActualizarAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarAlumno.Location = new System.Drawing.Point(265, 194);
+            this.btnActualizarAlumno.Location = new System.Drawing.Point(70, 195);
             this.btnActualizarAlumno.Name = "btnActualizarAlumno";
             this.btnActualizarAlumno.Size = new System.Drawing.Size(163, 123);
             this.btnActualizarAlumno.TabIndex = 2;
@@ -71,7 +73,7 @@
             // btnVerificarVencimiento
             // 
             this.btnVerificarVencimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerificarVencimiento.Location = new System.Drawing.Point(479, 194);
+            this.btnVerificarVencimiento.Location = new System.Drawing.Point(284, 195);
             this.btnVerificarVencimiento.Name = "btnVerificarVencimiento";
             this.btnVerificarVencimiento.Size = new System.Drawing.Size(171, 128);
             this.btnVerificarVencimiento.TabIndex = 3;
@@ -89,11 +91,34 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // btnBuscarPorNombreYApellido
+            // 
+            this.btnBuscarPorNombreYApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(667, 69);
+            this.btnBuscarPorNombreYApellido.Name = "btnBuscarPorNombreYApellido";
+            this.btnBuscarPorNombreYApellido.Size = new System.Drawing.Size(150, 73);
+            this.btnBuscarPorNombreYApellido.TabIndex = 5;
+            this.btnBuscarPorNombreYApellido.Text = "Buscar alumno por nombre y apellido";
+            this.btnBuscarPorNombreYApellido.UseVisualStyleBackColor = true;
+            this.btnBuscarPorNombreYApellido.Click += new System.EventHandler(this.btnBuscarPorNombreYApellido_Click);
+            // 
+            // btnRegistrarAsistencia
+            // 
+            this.btnRegistrarAsistencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(667, 167);
+            this.btnRegistrarAsistencia.Name = "btnRegistrarAsistencia";
+            this.btnRegistrarAsistencia.Size = new System.Drawing.Size(150, 73);
+            this.btnRegistrarAsistencia.TabIndex = 7;
+            this.btnRegistrarAsistencia.Text = "Registrar asistencia";
+            this.btnRegistrarAsistencia.UseVisualStyleBackColor = true;
+            // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 562);
+            this.Controls.Add(this.btnRegistrarAsistencia);
+            this.Controls.Add(this.btnBuscarPorNombreYApellido);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnVerificarVencimiento);
             this.Controls.Add(this.btnActualizarAlumno);
@@ -113,5 +138,7 @@
         private System.Windows.Forms.Button btnActualizarAlumno;
         private System.Windows.Forms.Button btnVerificarVencimiento;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnBuscarPorNombreYApellido;
+        private System.Windows.Forms.Button btnRegistrarAsistencia;
     }
 }

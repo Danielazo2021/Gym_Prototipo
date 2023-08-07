@@ -14,7 +14,7 @@ namespace Proyecto_Gym_Forms
         public int edad { get; set; }
         public  string sexo { get; set; }
         public string observaciones { get; set; } = null;
-
+        public DateTime fechaAlta { get; set; }
 
     }
 }

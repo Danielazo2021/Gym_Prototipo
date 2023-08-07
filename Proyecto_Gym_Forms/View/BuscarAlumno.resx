@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="conexionBD" xml:space="preserve">
-    <value>Data Source=LAPTOP-SJP45N95;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true</value>
-  </data>
 </root>

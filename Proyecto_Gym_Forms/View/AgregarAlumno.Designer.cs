@@ -45,11 +45,15 @@
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dtpFechaDeAlta = new System.Windows.Forms.DateTimePicker();
             this.gbxAgregarAlumno.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbxAgregarAlumno
             // 
+            this.gbxAgregarAlumno.Controls.Add(this.dtpFechaDeAlta);
+            this.gbxAgregarAlumno.Controls.Add(this.label6);
             this.gbxAgregarAlumno.Controls.Add(this.label5);
             this.gbxAgregarAlumno.Controls.Add(this.btnCancelar);
             this.gbxAgregarAlumno.Controls.Add(this.btnRegistrar);
@@ -67,7 +71,7 @@
             this.gbxAgregarAlumno.Controls.Add(this.txtNombre);
             this.gbxAgregarAlumno.Location = new System.Drawing.Point(105, 12);
             this.gbxAgregarAlumno.Name = "gbxAgregarAlumno";
-            this.gbxAgregarAlumno.Size = new System.Drawing.Size(395, 360);
+            this.gbxAgregarAlumno.Size = new System.Drawing.Size(395, 387);
             this.gbxAgregarAlumno.TabIndex = 1;
             this.gbxAgregarAlumno.TabStop = false;
             // 
@@ -83,7 +87,7 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(175, 298);
+            this.btnCancelar.Location = new System.Drawing.Point(175, 344);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(95, 28);
             this.btnCancelar.TabIndex = 13;
@@ -93,7 +97,7 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(54, 298);
+            this.btnRegistrar.Location = new System.Drawing.Point(54, 344);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(95, 28);
             this.btnRegistrar.TabIndex = 12;
@@ -106,7 +110,7 @@
             this.txtObservaciones.Location = new System.Drawing.Point(149, 233);
             this.txtObservaciones.Multiline = true;
             this.txtObservaciones.Name = "txtObservaciones";
-            this.txtObservaciones.Size = new System.Drawing.Size(189, 49);
+            this.txtObservaciones.Size = new System.Drawing.Size(189, 41);
             this.txtObservaciones.TabIndex = 11;
             // 
             // cboSexo
@@ -209,6 +213,23 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(36, 300);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Fecha de alta";
+            // 
+            // dtpFechaDeAlta
+            // 
+            this.dtpFechaDeAlta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaDeAlta.Location = new System.Drawing.Point(151, 294);
+            this.dtpFechaDeAlta.Name = "dtpFechaDeAlta";
+            this.dtpFechaDeAlta.Size = new System.Drawing.Size(99, 20);
+            this.dtpFechaDeAlta.TabIndex = 16;
+            // 
             // AgregarAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,5 +264,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DateTimePicker dtpFechaDeAlta;
+        private System.Windows.Forms.Label label6;
     }
 }

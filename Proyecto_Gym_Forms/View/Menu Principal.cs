@@ -51,5 +51,11 @@ namespace Proyecto_Gym_Forms.View
             verificarVencimiento.Show();
 
         }
+
+        private void btnBuscarPorNombreYApellido_Click(object sender, EventArgs e)
+        {
+            BuscarAlumno buscarAlumno = new BuscarAlumno();
+            buscarAlumno.Show();
+        }
     }
 }
