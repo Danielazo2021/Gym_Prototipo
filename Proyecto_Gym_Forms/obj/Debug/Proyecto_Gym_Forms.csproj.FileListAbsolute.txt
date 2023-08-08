@@ -187,7 +187,6 @@ C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Fo
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.SuggestedBindingRedirects.cache
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.AgregarAlumno.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.EditarAlumno.resources
-C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.InicioSecion.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.Properties.Resources.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.Menu_Principal.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.csproj.GenerateResource.cache
@@ -198,3 +197,5 @@ C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Fo
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.PagarCuota.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.VerificarVencimiento.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.BuscarAlumno.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.ConsultarCuotasPorDia.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.IniciarSecion.resources

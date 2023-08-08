@@ -20,8 +20,8 @@ namespace Proyecto_Gym_Forms.View
             txtApellido.Enabled = false;
             calcularVencimiento();
             cargarFormasDePago();
-            txtResponsable.Text = InicioSecion.responsableLogueado;
-
+            txtResponsable.Text = IniciarSecion.responsableLogueado;
+            dtpFechaDelPago.Enabled = false;
             // no se debe editar desde esta pesataña ni nombre ni apellido
             habilitarCampos(false);
         }
@@ -74,16 +74,17 @@ namespace Proyecto_Gym_Forms.View
             
 
             DatosCuotas datosCuota = new DatosCuotas();
-            datosCuota.alumno = InicioSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
+            datosCuota.alumno = IniciarSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
             datosCuota.valorCuota = Convert.ToInt32(txtMontoCuota.Text);
             datosCuota.fechaInicio = dtpInicioCuota.Value;
             datosCuota.fechaVencimiento = dtpFinCuota.Value;
             datosCuota.observaciones = txtObservaciones.Text;
             datosCuota.responsableDeCobro = txtResponsable.Text;
             datosCuota.formaDePago = cboFormasDePago.Text;
+            datosCuota.fechaDelPago = dtpFechaDelPago.Value;
 
 
-            if(InicioSecion.service.cobrarCuota(datosCuota))
+            if(IniciarSecion.service.cobrarCuota(datosCuota))
             {
                 MessageBox.Show("Se registro el cobro con exito", "Exitoso!!");
                 limpiarCampos();
@@ -120,7 +121,7 @@ namespace Proyecto_Gym_Forms.View
                 return;
             }
 
-            Alumno alumno = InicioSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
+            Alumno alumno = IniciarSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
 
             if (alumno.nombre == null)
             {
@@ -164,6 +165,9 @@ namespace Proyecto_Gym_Forms.View
 
         }
 
-        
+        private void PagarCuota_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

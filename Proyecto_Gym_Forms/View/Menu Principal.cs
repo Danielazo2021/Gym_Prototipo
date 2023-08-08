@@ -57,5 +57,12 @@ namespace Proyecto_Gym_Forms.View
             BuscarAlumno buscarAlumno = new BuscarAlumno();
             buscarAlumno.Show();
         }
+
+        private void btnConsultarCuotasPorDia_Click(object sender, EventArgs e)
+        {
+            ConsultarCuotasPorDia cuotasPorDia = new ConsultarCuotasPorDia();
+            cuotasPorDia.Show();
+
+        }
     }
 }

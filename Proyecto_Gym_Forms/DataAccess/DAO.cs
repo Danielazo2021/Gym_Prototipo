@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Net;
+using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -83,42 +85,9 @@ namespace Proyecto_Gym_Forms.DataAccess
             }
             return confirmacion;
         }
+              
 
        
-
-        public bool cobrarCuota(DatosCuotas datosCuotas)
-        {
-            bool confirmacion = false;
-            try
-            {
-                SqlCommand cmdMaestro = new SqlCommand();
-                cnn.Open();
-                cmdMaestro.Connection = cnn;
-                cmdMaestro.CommandType = CommandType.StoredProcedure;
-                cmdMaestro.CommandText = "PA_Cobrar_Cuota";
-                cmdMaestro.Parameters.AddWithValue("@dni", datosCuotas.alumno.dni);
-                cmdMaestro.Parameters.AddWithValue("@fechaDeInicio", datosCuotas.fechaInicio);
-                cmdMaestro.Parameters.AddWithValue("@fechaVencimiento", datosCuotas.fechaVencimiento);
-                cmdMaestro.Parameters.AddWithValue("@valorDeCuota", datosCuotas.valorCuota);
-                cmdMaestro.Parameters.AddWithValue("@responsableDelCobro", datosCuotas.responsableDeCobro);
-                cmdMaestro.Parameters.AddWithValue("@observaciones", datosCuotas.observaciones);
-                cmdMaestro.Parameters.AddWithValue("@formaDePago", datosCuotas.formaDePago);
-
-                cmdMaestro.ExecuteNonQuery();
-                confirmacion = true;
-
-            }
-            catch (Exception e)
-            {
-
-            }
-            finally
-            {
-                if (cnn != null && cnn.State == ConnectionState.Open)
-                    cnn.Close();
-            }
-            return confirmacion;
-        }
 
         public Alumno consultaAlumno(int dni)
         {
@@ -158,14 +127,174 @@ namespace Proyecto_Gym_Forms.DataAccess
             return resultado;
         }
 
-        public Alumno consultaAlumno(string nombre, string apellido)
+        public DataTable consultaAlumno(string nombre)
         {
-            throw new NotImplementedException();
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_buscar_por_nombre_Solo", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                tabla.Load(cmd.ExecuteReader());
+                cnn.Close();
+
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
+        }
+        public DataTable consultaAlumno(string nombre, string apellido)
+        {
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_buscar_por_apellido_y_nombre", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                cmd.Parameters.AddWithValue("@apellido", apellido);
+                tabla.Load(cmd.ExecuteReader());
+                cnn.Close();
+
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
+        }
+        public DataTable consultarAlumno(int dni)
+        {
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_buscar_por_dni", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@dni", dni);             
+                tabla.Load(cmd.ExecuteReader());
+                cnn.Close();
+
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
         }
 
-        public List<DatosCuotas> consultarCuotas(DateTime fecha)
+        public bool cobrarCuota(DatosCuotas datosCuotas)
         {
-            throw new NotImplementedException();
+            bool confirmacion = false;
+            try
+            {
+                SqlCommand cmdMaestro = new SqlCommand();
+                cnn.Open();
+                cmdMaestro.Connection = cnn;
+                cmdMaestro.CommandType = CommandType.StoredProcedure;
+                cmdMaestro.CommandText = "PA_Cobrar_Cuota";
+                cmdMaestro.Parameters.AddWithValue("@dni", datosCuotas.alumno.dni);
+                cmdMaestro.Parameters.AddWithValue("@fechaDeInicio", datosCuotas.fechaInicio);
+                cmdMaestro.Parameters.AddWithValue("@fechaVencimiento", datosCuotas.fechaVencimiento);
+                cmdMaestro.Parameters.AddWithValue("@valorDeCuota", datosCuotas.valorCuota);
+                cmdMaestro.Parameters.AddWithValue("@responsableDelCobro", datosCuotas.responsableDeCobro);
+                cmdMaestro.Parameters.AddWithValue("@observaciones", datosCuotas.observaciones);
+                cmdMaestro.Parameters.AddWithValue("@formaDePago", datosCuotas.formaDePago);
+                cmdMaestro.Parameters.AddWithValue("@fechaDelPago", datosCuotas.fechaDelPago);
+
+                cmdMaestro.ExecuteNonQuery();
+                confirmacion = true;
+
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+            return confirmacion;
+        }
+        public DataTable consultarCuotas(DateTime fecha)
+        {
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_Cuotas_Cobradas_Por_Fecha", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@fecha", fecha);
+                
+                tabla.Load(cmd.ExecuteReader());
+
+                cnn.Close();
+
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
+        }
+
+      
+
+        public DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta)
+        {
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_Vencimiento_Por_Fecha", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;                
+
+                cmd.Parameters.AddWithValue("@desde", desde);
+                cmd.Parameters.AddWithValue("@hasta", hasta);
+                tabla.Load(cmd.ExecuteReader());
+               
+                cnn.Close();
+
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
+
         }
 
         public bool validarLogin(Login login)
@@ -174,7 +303,7 @@ namespace Proyecto_Gym_Forms.DataAccess
             try
             {
                 cnn.Open();
-                SqlCommand cmd = new SqlCommand("PA_Validar_Login" ,cnn);
+                SqlCommand cmd = new SqlCommand("PA_Validar_Login", cnn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 DataTable tabla = new DataTable();
 
@@ -200,62 +329,5 @@ namespace Proyecto_Gym_Forms.DataAccess
             return status;
         }
 
-        public DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta)
-        {
-            DataTable tabla = new DataTable();
-            try
-            {
-                cnn.Open();
-                SqlCommand cmd = new SqlCommand("PA_Vencimiento_Por_Fecha", cnn);
-                cmd.CommandType = CommandType.StoredProcedure;                
-
-                cmd.Parameters.AddWithValue("@desde", desde);
-                cmd.Parameters.AddWithValue("@hasta", hasta);
-                tabla.Load(cmd.ExecuteReader());
-               
-                cnn.Close();
-
-            }
-            catch (Exception ex)
-            {
-
-            }
-            finally
-            {
-                if (cnn != null && cnn.State == ConnectionState.Open)
-                    cnn.Close();
-            }
-
-            return tabla;
-
-
-
-        }
-
-        public DataTable consultaAlumno(string nombre)
-        {
-            DataTable tabla = new DataTable();          
-            try
-            {
-                cnn.Open();
-                SqlCommand cmd = new SqlCommand("PA_buscar_por_nombre_Solo", cnn);
-                cmd.CommandType = CommandType.StoredProcedure;
-               
-                cmd.Parameters.AddWithValue("@nombre", nombre);
-                tabla.Load(cmd.ExecuteReader());                               
-                cnn.Close();
-             
-            }
-            catch (Exception ex)
-            {
-            }
-            finally
-            {
-                if (cnn != null && cnn.State == ConnectionState.Open)
-                    cnn.Close();
-            }
-           
-            return tabla;
-        }
     }
 }

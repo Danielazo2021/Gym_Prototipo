@@ -16,5 +16,6 @@ namespace Proyecto_Gym_Forms.Model
         public int valorCuota { get; set; }
         public string responsableDeCobro { get; set; }
         public string formaDePago { get; set; }
+        public DateTime fechaDelPago {get;set;}
     }
 }

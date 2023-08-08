@@ -13,12 +13,12 @@ using System.Windows.Forms;
 
 namespace Proyecto_Gym_Forms
 {
-    public partial class InicioSecion : Form
+    public partial class IniciarSecion : Form
     {
         public static IService service;
         public static string responsableLogueado;
 
-        public InicioSecion()
+        public IniciarSecion()
         {
             InitializeComponent();
             service = new Service();

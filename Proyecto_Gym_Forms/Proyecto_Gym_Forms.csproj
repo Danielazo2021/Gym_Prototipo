@@ -206,6 +206,12 @@
     <Compile Include="View\AgregarAlumno.Designer.cs">
       <DependentUpon>AgregarAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\ConsultarCuotasPorDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ConsultarCuotasPorDia.Designer.cs">
+      <DependentUpon>ConsultarCuotasPorDia.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\BuscarAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,11 +224,11 @@
     <Compile Include="View\EditarAlumno.Designer.cs">
       <DependentUpon>EditarAlumno.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\InicioSecion.cs">
+    <Compile Include="View\IniciarSecion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\InicioSecion.Designer.cs">
-      <DependentUpon>InicioSecion.cs</DependentUpon>
+    <Compile Include="View\IniciarSecion.Designer.cs">
+      <DependentUpon>IniciarSecion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -253,14 +259,17 @@
     <EmbeddedResource Include="View\AgregarAlumno.resx">
       <DependentUpon>AgregarAlumno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\ConsultarCuotasPorDia.resx">
+      <DependentUpon>ConsultarCuotasPorDia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\BuscarAlumno.resx">
       <DependentUpon>BuscarAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\EditarAlumno.resx">
       <DependentUpon>EditarAlumno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\InicioSecion.resx">
-      <DependentUpon>InicioSecion.cs</DependentUpon>
+    <EmbeddedResource Include="View\IniciarSecion.resx">
+      <DependentUpon>IniciarSecion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

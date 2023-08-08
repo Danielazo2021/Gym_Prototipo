@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Gym_Forms
 {
-    partial class InicioSecion
+    partial class IniciarSecion
     {
         /// <summary>
         /// Variable del diseñador necesaria.

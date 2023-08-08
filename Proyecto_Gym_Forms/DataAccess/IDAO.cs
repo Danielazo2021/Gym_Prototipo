@@ -15,9 +15,11 @@ namespace Proyecto_Gym_Forms.DataAccess
         DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta);
         bool cobrarCuota(DatosCuotas datosCuotas);
         Alumno consultaAlumno(int dni);
-        Alumno consultaAlumno(string nombre, string apellido);
+        DataTable consultarAlumno(int dni);
+
+        DataTable consultaAlumno(string nombre, string apellido);
         DataTable     consultaAlumno(string nombre);
-        List<DatosCuotas> consultarCuotas(DateTime fecha);
+        DataTable consultarCuotas(DateTime fecha);
         bool validarLogin(Login login);
     }
 }

@@ -30,11 +30,42 @@ namespace Proyecto_Gym_Forms.View
                 return;
             }
             dgvMostrarDatos.DataSource = null;
-            dgvMostrarDatos.DataSource= InicioSecion.service.consultaAlumno(txtNombreSolo.Text);
+            dgvMostrarDatos.DataSource= IniciarSecion.service.consultaAlumno(txtNombreSolo.Text);
 
            
         }
 
-    
+        private void btnBuscarNombreYApellido_Click(object sender, EventArgs e)
+        {
+
+            if (txtNombreDe2campos.Text == "")
+            {
+                MessageBox.Show("Debe ingresar el Nombre!!");
+                return;
+            }
+            if (txtApellido.Text == "")
+            {
+                MessageBox.Show("Debe ingresar el Apellido!!");
+                return;
+            }
+            dgvMostrarDatos.DataSource = null;
+            dgvMostrarDatos.DataSource = IniciarSecion.service.consultaAlumno(txtNombreDe2campos.Text, txtApellido.Text);
+
+        }
+
+        private void btnBuscarPorDni_Click(object sender, EventArgs e)
+        {
+
+            if (txtDni.Text == "")
+            {
+                MessageBox.Show("Debe ingresar el DNI!!");
+                return;
+            }
+            dgvMostrarDatos.DataSource = null;
+            dgvMostrarDatos.DataSource = IniciarSecion.service.consultarAlumno(Convert.ToInt32(txtDni.Text));
+
+
+
+        }
     }
 }

@@ -37,12 +37,12 @@ namespace Proyecto_Gym_Forms.View
                 }
             alumno.fechaAlta=dtpFechaDeAlta.Value;
 
-            if (InicioSecion.service.consultaAlumno(alumno.dni).nombre != null)
+            if (IniciarSecion.service.consultaAlumno(alumno.dni).nombre != null)
             {
                 MessageBox.Show("Atención, ya existe un alumno cargado con ese DNI");
                
             }
-                else if (InicioSecion.service.agregarAlumno(alumno))
+                else if (IniciarSecion.service.agregarAlumno(alumno))
                 {
                     MessageBox.Show("Alumno agregado con exito");
 

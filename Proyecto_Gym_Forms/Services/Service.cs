@@ -45,7 +45,13 @@ namespace Proyecto_Gym_Forms.Services
             return dao.consultaAlumno(dni);
         }
 
-        public Alumno consultaAlumno(string nombre, string apellido)
+        public DataTable consultarAlumno(int dni)
+        {
+            return dao.consultarAlumno(dni);
+        }
+
+
+        public DataTable consultaAlumno(string nombre, string apellido)
         {
             return dao.consultaAlumno(nombre , apellido);
         }
@@ -55,7 +61,7 @@ namespace Proyecto_Gym_Forms.Services
             return dao.consultaAlumno(nombre);
         }
 
-        public List<DatosCuotas> consultarCuotas(DateTime fecha)
+        public DataTable consultarCuotas(DateTime fecha)
         {
             return dao.consultarCuotas(fecha);
         }

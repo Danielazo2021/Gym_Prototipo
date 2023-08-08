@@ -94,6 +94,7 @@
             this.btnBuscarNombreYApellido.TabIndex = 21;
             this.btnBuscarNombreYApellido.Text = "Buscar";
             this.btnBuscarNombreYApellido.UseVisualStyleBackColor = true;
+            this.btnBuscarNombreYApellido.Click += new System.EventHandler(this.btnBuscarNombreYApellido_Click);
             // 
             // btnBack
             // 
@@ -178,6 +179,7 @@
             this.btnBuscarPorDni.TabIndex = 26;
             this.btnBuscarPorDni.Text = "Buscar";
             this.btnBuscarPorDni.UseVisualStyleBackColor = true;
+            this.btnBuscarPorDni.Click += new System.EventHandler(this.btnBuscarPorDni_Click);
             // 
             // label2
             // 

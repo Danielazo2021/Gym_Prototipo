@@ -12,12 +12,14 @@ namespace Proyecto_Gym_Forms.Services
     {
         bool agregarAlumno(Alumno alumno);
         Alumno consultaAlumno(int dni);
-       DataTable consultaAlumno(string  nombre);
-        Alumno consultaAlumno(string nombre, string Apellido);
+
+        DataTable consultarAlumno(int dni);
+        DataTable consultaAlumno(string  nombre);
+        DataTable consultaAlumno(string nombre, string Apellido);
         bool actualizarAlumno(Alumno alumno);
 
         bool cobrarCuota(DatosCuotas datosCuotas);
-        List<DatosCuotas> consultarCuotas(DateTime fecha);
+        DataTable consultarCuotas(DateTime fecha);
 
         bool validarLogin(Login login);
         DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta);

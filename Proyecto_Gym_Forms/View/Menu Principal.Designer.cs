@@ -35,6 +35,7 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.btnBuscarPorNombreYApellido = new System.Windows.Forms.Button();
             this.btnRegistrarAsistencia = new System.Windows.Forms.Button();
+            this.btnConsultarCuotasPorDia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNuevoAlumno
@@ -94,7 +95,7 @@
             // btnBuscarPorNombreYApellido
             // 
             this.btnBuscarPorNombreYApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(667, 69);
+            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(667, 56);
             this.btnBuscarPorNombreYApellido.Name = "btnBuscarPorNombreYApellido";
             this.btnBuscarPorNombreYApellido.Size = new System.Drawing.Size(150, 73);
             this.btnBuscarPorNombreYApellido.TabIndex = 5;
@@ -105,18 +106,30 @@
             // btnRegistrarAsistencia
             // 
             this.btnRegistrarAsistencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(667, 167);
+            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(667, 245);
             this.btnRegistrarAsistencia.Name = "btnRegistrarAsistencia";
             this.btnRegistrarAsistencia.Size = new System.Drawing.Size(150, 73);
             this.btnRegistrarAsistencia.TabIndex = 7;
             this.btnRegistrarAsistencia.Text = "Registrar asistencia";
             this.btnRegistrarAsistencia.UseVisualStyleBackColor = true;
             // 
+            // btnConsultarCuotasPorDia
+            // 
+            this.btnConsultarCuotasPorDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarCuotasPorDia.Location = new System.Drawing.Point(667, 148);
+            this.btnConsultarCuotasPorDia.Name = "btnConsultarCuotasPorDia";
+            this.btnConsultarCuotasPorDia.Size = new System.Drawing.Size(150, 73);
+            this.btnConsultarCuotasPorDia.TabIndex = 8;
+            this.btnConsultarCuotasPorDia.Text = "Consultar cuotas por día";
+            this.btnConsultarCuotasPorDia.UseVisualStyleBackColor = true;
+            this.btnConsultarCuotasPorDia.Click += new System.EventHandler(this.btnConsultarCuotasPorDia_Click);
+            // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 562);
+            this.Controls.Add(this.btnConsultarCuotasPorDia);
             this.Controls.Add(this.btnRegistrarAsistencia);
             this.Controls.Add(this.btnBuscarPorNombreYApellido);
             this.Controls.Add(this.btnBack);
@@ -140,5 +153,6 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnBuscarPorNombreYApellido;
         private System.Windows.Forms.Button btnRegistrarAsistencia;
+        private System.Windows.Forms.Button btnConsultarCuotasPorDia;
     }
 }

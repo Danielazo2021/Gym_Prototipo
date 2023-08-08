@@ -49,6 +49,7 @@
             this.dgvResultados.ReadOnly = true;
             this.dgvResultados.Size = new System.Drawing.Size(728, 202);
             this.dgvResultados.TabIndex = 0;
+            this.dgvResultados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResultados_CellContentClick);
             // 
             // dtpHasta
             // 
@@ -58,6 +59,7 @@
             this.dtpHasta.Name = "dtpHasta";
             this.dtpHasta.Size = new System.Drawing.Size(134, 26);
             this.dtpHasta.TabIndex = 1;
+            this.dtpHasta.ValueChanged += new System.EventHandler(this.dtpHasta_ValueChanged);
             // 
             // dtpDesde
             // 
@@ -68,6 +70,7 @@
             this.dtpDesde.Name = "dtpDesde";
             this.dtpDesde.Size = new System.Drawing.Size(129, 26);
             this.dtpDesde.TabIndex = 2;
+            this.dtpDesde.ValueChanged += new System.EventHandler(this.dtpDesde_ValueChanged);
             // 
             // label1
             // 
@@ -78,6 +81,7 @@
             this.label1.Size = new System.Drawing.Size(238, 26);
             this.label1.TabIndex = 3;
             this.label1.Text = "Proximos vencimientos";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -88,6 +92,7 @@
             this.label2.Size = new System.Drawing.Size(56, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Desde";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -98,6 +103,7 @@
             this.label3.Size = new System.Drawing.Size(52, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Hasta";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnBack
             // 

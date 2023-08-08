@@ -53,7 +53,7 @@ namespace Proyecto_Gym_Forms.View
                 return;
             }
             
-            Alumno alumno = InicioSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
+            Alumno alumno = IniciarSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
 
             if (alumno.nombre== null)
             {
@@ -109,7 +109,7 @@ namespace Proyecto_Gym_Forms.View
                 alumno.observaciones = txtObservaciones.Text;
             }
 
-            if (InicioSecion.service.actualizarAlumno(alumno))
+            if (IniciarSecion.service.actualizarAlumno(alumno))
             {
                 MessageBox.Show("Se actualizo con exito!!");
             }else

@@ -16,7 +16,7 @@ namespace Proyecto_Gym_Forms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InicioSecion());
+            Application.Run(new IniciarSecion());
         }
     }
 }

@@ -29,10 +29,40 @@ namespace Proyecto_Gym_Forms.View
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            //llamar al sp  y cargar el source del dgv
+           
             dgvResultados.DataSource = null;
 
-            dgvResultados.DataSource= InicioSecion.service.buscarProximosVencimientos(dtpDesde.Value, dtpHasta.Value);
+            dgvResultados.DataSource= IniciarSecion.service.buscarProximosVencimientos(dtpDesde.Value, dtpHasta.Value);
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpDesde_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpHasta_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvResultados_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.gbxActualizarAlumno = new System.Windows.Forms.GroupBox();
+            this.cboFormasDePago = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMontoCuota = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -51,12 +52,15 @@
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
-            this.cboFormasDePago = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.dtpFechaDelPago = new System.Windows.Forms.DateTimePicker();
             this.gbxActualizarAlumno.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbxActualizarAlumno
             // 
+            this.gbxActualizarAlumno.Controls.Add(this.label9);
+            this.gbxActualizarAlumno.Controls.Add(this.dtpFechaDelPago);
             this.gbxActualizarAlumno.Controls.Add(this.cboFormasDePago);
             this.gbxActualizarAlumno.Controls.Add(this.label8);
             this.gbxActualizarAlumno.Controls.Add(this.txtMontoCuota);
@@ -84,6 +88,14 @@
             this.gbxActualizarAlumno.Size = new System.Drawing.Size(859, 362);
             this.gbxActualizarAlumno.TabIndex = 3;
             this.gbxActualizarAlumno.TabStop = false;
+            // 
+            // cboFormasDePago
+            // 
+            this.cboFormasDePago.FormattingEnabled = true;
+            this.cboFormasDePago.Location = new System.Drawing.Point(597, 82);
+            this.cboFormasDePago.Name = "cboFormasDePago";
+            this.cboFormasDePago.Size = new System.Drawing.Size(121, 21);
+            this.cboFormasDePago.TabIndex = 26;
             // 
             // label8
             // 
@@ -141,7 +153,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(140, 188);
+            this.label6.Location = new System.Drawing.Point(140, 209);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 13);
             this.label6.TabIndex = 19;
@@ -150,7 +162,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(140, 154);
+            this.label1.Location = new System.Drawing.Point(140, 175);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 13);
             this.label1.TabIndex = 17;
@@ -159,7 +171,7 @@
             // dtpFinCuota
             // 
             this.dtpFinCuota.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFinCuota.Location = new System.Drawing.Point(289, 188);
+            this.dtpFinCuota.Location = new System.Drawing.Point(289, 209);
             this.dtpFinCuota.Name = "dtpFinCuota";
             this.dtpFinCuota.Size = new System.Drawing.Size(121, 20);
             this.dtpFinCuota.TabIndex = 16;
@@ -167,7 +179,7 @@
             // dtpInicioCuota
             // 
             this.dtpInicioCuota.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpInicioCuota.Location = new System.Drawing.Point(289, 154);
+            this.dtpInicioCuota.Location = new System.Drawing.Point(289, 175);
             this.dtpInicioCuota.Name = "dtpInicioCuota";
             this.dtpInicioCuota.Size = new System.Drawing.Size(121, 20);
             this.dtpInicioCuota.TabIndex = 15;
@@ -281,13 +293,22 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // cboFormasDePago
+            // label9
             // 
-            this.cboFormasDePago.FormattingEnabled = true;
-            this.cboFormasDePago.Location = new System.Drawing.Point(597, 82);
-            this.cboFormasDePago.Name = "cboFormasDePago";
-            this.cboFormasDePago.Size = new System.Drawing.Size(121, 21);
-            this.cboFormasDePago.TabIndex = 26;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(140, 144);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(81, 13);
+            this.label9.TabIndex = 28;
+            this.label9.Text = "Fecha del pago";
+            // 
+            // dtpFechaDelPago
+            // 
+            this.dtpFechaDelPago.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaDelPago.Location = new System.Drawing.Point(289, 138);
+            this.dtpFechaDelPago.Name = "dtpFechaDelPago";
+            this.dtpFechaDelPago.Size = new System.Drawing.Size(121, 20);
+            this.dtpFechaDelPago.TabIndex = 27;
             // 
             // PagarCuota
             // 
@@ -298,6 +319,7 @@
             this.Controls.Add(this.gbxActualizarAlumno);
             this.Name = "PagarCuota";
             this.Text = "Pagar Cuota";
+            this.Load += new System.EventHandler(this.PagarCuota_Load);
             this.gbxActualizarAlumno.ResumeLayout(false);
             this.gbxActualizarAlumno.PerformLayout();
             this.ResumeLayout(false);
@@ -330,5 +352,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cboFormasDePago;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker dtpFechaDelPago;
     }
 }
