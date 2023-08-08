@@ -21,6 +21,11 @@ namespace Proyecto_Gym_Forms
         public IniciarSecion()
         {
             InitializeComponent();
+
+           
+            
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             service = new Service();
             dtpFecha.Enabled = false;
         }
@@ -40,7 +45,7 @@ namespace Proyecto_Gym_Forms
             {
                 responsableLogueado = txtUsuario.Text;
                 Menu_Principal inicio = new Menu_Principal();
-                inicio.Show();
+                inicio.ShowDialog();
             }
             else
             {
@@ -62,9 +67,9 @@ namespace Proyecto_Gym_Forms
                 else
                 {
                     MessageBox.Show("Perfecto, ahora ingrese usuario y contraseña para seguir por favor");
-                }
-            
+                }           
            
         }
+       
     }
 }

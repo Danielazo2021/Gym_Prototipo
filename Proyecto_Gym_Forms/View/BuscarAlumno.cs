@@ -15,6 +15,8 @@ namespace Proyecto_Gym_Forms.View
         public BuscarAlumno()
         {
             InitializeComponent();
+        
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -65,6 +67,22 @@ namespace Proyecto_Gym_Forms.View
             dgvMostrarDatos.DataSource = IniciarSecion.service.consultarAlumno(Convert.ToInt32(txtDni.Text));
 
 
+
+        }
+
+        private void BuscarAlumno_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult = MessageBox.Show("copio el numero de dni antes de tocar 'poner asistencia'??", "Atencion", MessageBoxButtons.YesNo);
+            if(DialogResult == DialogResult.Yes)
+            {
+                RegistrarAsistencia registrarAsistencia = new RegistrarAsistencia();
+                registrarAsistencia.ShowDialog();
+            }
 
         }
     }

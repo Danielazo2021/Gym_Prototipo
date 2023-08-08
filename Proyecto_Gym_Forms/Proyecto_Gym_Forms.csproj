@@ -196,6 +196,7 @@
       <DependentUpon>GYM_SergioDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Model\Alumno.cs" />
+    <Compile Include="Model\Asistencia.cs" />
     <Compile Include="Model\DatosCuotas.cs" />
     <Compile Include="Model\Login.cs" />
     <Compile Include="Services\IService.cs" />
@@ -286,6 +287,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\PagarCuota.resx">
       <DependentUpon>PagarCuota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RegistrarAsistencia.resx">
+      <DependentUpon>RegistrarAsistencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\VerificarVencimiento.resx">
       <DependentUpon>VerificarVencimiento.cs</DependentUpon>

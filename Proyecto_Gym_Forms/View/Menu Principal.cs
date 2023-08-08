@@ -15,6 +15,8 @@ namespace Proyecto_Gym_Forms.View
         public Menu_Principal()
         {
             InitializeComponent();
+      
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void Menu_Principal_Load(object sender, EventArgs e)
@@ -25,13 +27,13 @@ namespace Proyecto_Gym_Forms.View
         private void btnNuevoAlumno_Click(object sender, EventArgs e)
         {
             AgregarAlumno nuevoAlumno =new AgregarAlumno();
-            nuevoAlumno.Show();
+            nuevoAlumno.ShowDialog();
         }
 
         private void btnActualizarAlumno_Click(object sender, EventArgs e)
         {
             EditarAlumno editar = new EditarAlumno();
-            editar.Show();
+            editar.ShowDialog();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -42,27 +44,33 @@ namespace Proyecto_Gym_Forms.View
         private void btnPagarCuota_Click(object sender, EventArgs e)
         {
             PagarCuota pagarCuota = new PagarCuota();
-            pagarCuota.Show();
+            pagarCuota.ShowDialog();
         }
 
         private void btnVerificarVencimiento_Click(object sender, EventArgs e)
         {
             VerificarVencimiento verificarVencimiento = new VerificarVencimiento();
-            verificarVencimiento.Show();
+            verificarVencimiento.ShowDialog();
 
         }
 
         private void btnBuscarPorNombreYApellido_Click(object sender, EventArgs e)
         {
             BuscarAlumno buscarAlumno = new BuscarAlumno();
-            buscarAlumno.Show();
+            buscarAlumno.ShowDialog();
         }
 
         private void btnConsultarCuotasPorDia_Click(object sender, EventArgs e)
         {
             ConsultarCuotasPorDia cuotasPorDia = new ConsultarCuotasPorDia();
-            cuotasPorDia.Show();
+            cuotasPorDia.ShowDialog();
 
+        }
+
+        private void btnRegistrarAsistencia_Click(object sender, EventArgs e)
+        {
+            RegistrarAsistencia registrarAsistencia= new RegistrarAsistencia();
+            registrarAsistencia.ShowDialog();
         }
     }
 }

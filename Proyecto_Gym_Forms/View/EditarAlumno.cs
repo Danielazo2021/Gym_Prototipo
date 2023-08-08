@@ -16,6 +16,10 @@ namespace Proyecto_Gym_Forms.View
         public EditarAlumno()
         {
             InitializeComponent();
+            this.Width = 800;
+            this.Height = 600;
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             cargarCombo();
             habilitarCampos(false);
         }

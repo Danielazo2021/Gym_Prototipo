@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.dgvResultados = new System.Windows.Forms.DataGridView();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,11 +88,22 @@
             this.dgvResultados.Size = new System.Drawing.Size(728, 202);
             this.dgvResultados.TabIndex = 8;
             // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(742, 413);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(158, 62);
+            this.btnBack.TabIndex = 15;
+            this.btnBack.Text = "Volver atrás";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // ConsultarCuotasPorDia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(912, 493);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -99,6 +111,7 @@
             this.Controls.Add(this.dgvResultados);
             this.Name = "ConsultarCuotasPorDia";
             this.Text = "BucarCuotasPorDia";
+            this.Load += new System.EventHandler(this.ConsultarCuotasPorDia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -112,5 +125,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.DataGridView dgvResultados;
+        private System.Windows.Forms.Button btnBack;
     }
 }

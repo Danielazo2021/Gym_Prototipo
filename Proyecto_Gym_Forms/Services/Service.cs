@@ -70,5 +70,10 @@ namespace Proyecto_Gym_Forms.Services
         {
             return dao.validarLogin(login);
         }
+
+        public bool registrarAsistencia(Asistencia asistencia)
+        {
+            return dao.registrarAsistencia(asistencia);
+        }
     }
 }

@@ -329,5 +329,33 @@ namespace Proyecto_Gym_Forms.DataAccess
             return status;
         }
 
+        public bool registrarAsistencia(Asistencia asistencia)
+        {
+            bool confirmacion = false;
+            try
+            {
+                SqlCommand cmdMaestro = new SqlCommand();
+                cnn.Open();
+                cmdMaestro.Connection = cnn;
+                cmdMaestro.CommandType = CommandType.StoredProcedure;
+                cmdMaestro.CommandText = "PA_Registrar_Asistencia";
+                cmdMaestro.Parameters.AddWithValue("@dni", asistencia.dni);
+                cmdMaestro.Parameters.AddWithValue("@fecha", asistencia.fecha);
+
+                cmdMaestro.ExecuteNonQuery();
+                confirmacion = true;
+
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+            return confirmacion;
+
+        }
     }
 }

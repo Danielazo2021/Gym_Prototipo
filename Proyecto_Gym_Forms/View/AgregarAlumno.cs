@@ -16,6 +16,9 @@ namespace Proyecto_Gym_Forms.View
         public AgregarAlumno()
         {
             InitializeComponent();
+                       
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             dtpFechaDeAlta.Enabled = false;
         }
 

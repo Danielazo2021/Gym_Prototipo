@@ -16,6 +16,9 @@ namespace Proyecto_Gym_Forms.View
         public PagarCuota()
         {
             InitializeComponent();
+          
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             txtNombre.Enabled = false;
             txtApellido.Enabled = false;
             calcularVencimiento();

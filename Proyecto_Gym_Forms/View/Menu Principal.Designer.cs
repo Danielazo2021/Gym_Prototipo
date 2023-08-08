@@ -84,7 +84,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(830, 352);
+            this.btnBack.Location = new System.Drawing.Point(710, 345);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(158, 62);
             this.btnBack.TabIndex = 4;
@@ -95,7 +95,7 @@
             // btnBuscarPorNombreYApellido
             // 
             this.btnBuscarPorNombreYApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(667, 56);
+            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(582, 56);
             this.btnBuscarPorNombreYApellido.Name = "btnBuscarPorNombreYApellido";
             this.btnBuscarPorNombreYApellido.Size = new System.Drawing.Size(150, 73);
             this.btnBuscarPorNombreYApellido.TabIndex = 5;
@@ -106,17 +106,18 @@
             // btnRegistrarAsistencia
             // 
             this.btnRegistrarAsistencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(667, 245);
+            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(582, 245);
             this.btnRegistrarAsistencia.Name = "btnRegistrarAsistencia";
             this.btnRegistrarAsistencia.Size = new System.Drawing.Size(150, 73);
             this.btnRegistrarAsistencia.TabIndex = 7;
             this.btnRegistrarAsistencia.Text = "Registrar asistencia";
             this.btnRegistrarAsistencia.UseVisualStyleBackColor = true;
+            this.btnRegistrarAsistencia.Click += new System.EventHandler(this.btnRegistrarAsistencia_Click);
             // 
             // btnConsultarCuotasPorDia
             // 
             this.btnConsultarCuotasPorDia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarCuotasPorDia.Location = new System.Drawing.Point(667, 148);
+            this.btnConsultarCuotasPorDia.Location = new System.Drawing.Point(582, 148);
             this.btnConsultarCuotasPorDia.Name = "btnConsultarCuotasPorDia";
             this.btnConsultarCuotasPorDia.Size = new System.Drawing.Size(150, 73);
             this.btnConsultarCuotasPorDia.TabIndex = 8;
@@ -128,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 562);
+            this.ClientSize = new System.Drawing.Size(911, 437);
             this.Controls.Add(this.btnConsultarCuotasPorDia);
             this.Controls.Add(this.btnRegistrarAsistencia);
             this.Controls.Add(this.btnBuscarPorNombreYApellido);

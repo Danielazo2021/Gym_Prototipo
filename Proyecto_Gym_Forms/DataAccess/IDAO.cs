@@ -21,5 +21,6 @@ namespace Proyecto_Gym_Forms.DataAccess
         DataTable     consultaAlumno(string nombre);
         DataTable consultarCuotas(DateTime fecha);
         bool validarLogin(Login login);
+        bool registrarAsistencia(Asistencia asistencia);
     }
 }

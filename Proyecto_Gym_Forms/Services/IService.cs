@@ -23,5 +23,6 @@ namespace Proyecto_Gym_Forms.Services
 
         bool validarLogin(Login login);
         DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta);
+        bool registrarAsistencia(Asistencia asistencia);
     }
 }

@@ -15,6 +15,9 @@ namespace Proyecto_Gym_Forms.View
         public VerificarVencimiento()
         {
             InitializeComponent();
+           
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void VerificarVencimiento_Load(object sender, EventArgs e)

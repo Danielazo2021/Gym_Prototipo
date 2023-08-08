@@ -15,6 +15,8 @@ namespace Proyecto_Gym_Forms.View
         public ConsultarCuotasPorDia()
         {
             InitializeComponent();
+           
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -25,6 +27,16 @@ namespace Proyecto_Gym_Forms.View
             dgvResultados.DataSource = IniciarSecion.service.consultarCuotas(dtpFecha.Value);
 
 
+        }
+
+        private void ConsultarCuotasPorDia_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

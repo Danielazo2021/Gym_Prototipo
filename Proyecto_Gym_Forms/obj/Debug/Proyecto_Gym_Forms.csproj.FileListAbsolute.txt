@@ -199,3 +199,4 @@ C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Fo
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.BuscarAlumno.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.ConsultarCuotasPorDia.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.IniciarSecion.resources
+C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Debug\Proyecto_Gym_Forms.View.RegistrarAsistencia.resources

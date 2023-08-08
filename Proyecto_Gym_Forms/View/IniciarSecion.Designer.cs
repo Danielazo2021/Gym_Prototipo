@@ -42,7 +42,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(39, 151);
+            this.btnAceptar.Location = new System.Drawing.Point(88, 226);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(85, 56);
             this.btnAceptar.TabIndex = 0;
@@ -52,21 +52,21 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(139, 50);
+            this.txtUsuario.Location = new System.Drawing.Point(188, 125);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(164, 20);
             this.txtUsuario.TabIndex = 1;
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(139, 90);
+            this.txtContraseña.Location = new System.Drawing.Point(188, 165);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(164, 20);
             this.txtContraseña.TabIndex = 2;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(163, 151);
+            this.btnSalir.Location = new System.Drawing.Point(212, 226);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 56);
             this.btnSalir.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 50);
+            this.label1.Location = new System.Drawing.Point(67, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 4;
@@ -88,7 +88,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(18, 94);
+            this.label2.Location = new System.Drawing.Point(67, 169);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 20);
             this.label2.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             this.dtpFecha.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFecha.Location = new System.Drawing.Point(361, 12);
+            this.dtpFecha.Location = new System.Drawing.Point(296, 4);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(318, 26);
             this.dtpFecha.TabIndex = 6;
@@ -113,7 +113,7 @@
             this.gbxLogin.Controls.Add(this.btnSalir);
             this.gbxLogin.Location = new System.Drawing.Point(185, 59);
             this.gbxLogin.Name = "gbxLogin";
-            this.gbxLogin.Size = new System.Drawing.Size(340, 298);
+            this.gbxLogin.Size = new System.Drawing.Size(444, 388);
             this.gbxLogin.TabIndex = 7;
             this.gbxLogin.TabStop = false;
             // 
@@ -121,22 +121,23 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(275, 17);
+            this.label3.Location = new System.Drawing.Point(210, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "Hoy es: ";
             // 
-            // InicioSecion
+            // IniciarSecion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 408);
+            this.ClientSize = new System.Drawing.Size(893, 521);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.gbxLogin);
             this.Controls.Add(this.dtpFecha);
-            this.Name = "InicioSecion";
+            this.Name = "IniciarSecion";
             this.Text = "Ingresar al sistema";
+           
             this.gbxLogin.ResumeLayout(false);
             this.gbxLogin.PerformLayout();
             this.ResumeLayout(false);
