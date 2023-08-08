@@ -35,7 +35,7 @@ namespace Proyecto_Gym_Forms
         {
             if(txtContraseña.Text== "" || txtUsuario.Text=="" )
             {
-                MessageBox.Show("Debe ingresar usuario y contraseña", "Atención!!");
+                MessageBox.Show("Debe ingresar usuario y contraseña", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             Login login =new Login();
@@ -49,7 +49,7 @@ namespace Proyecto_Gym_Forms
             }
             else
             {
-                MessageBox.Show("Usuario y/o contraseña Invalidas");
+                MessageBox.Show("Usuario y/o contraseña Invalidas", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
            
 
@@ -57,16 +57,16 @@ namespace Proyecto_Gym_Forms
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            var respuesta = MessageBox.Show("Esta saliendo de toda la aplicacion, esta seguro?", "Atencion", MessageBoxButtons.YesNo);
-                        
-                if(respuesta== DialogResult.Yes)
+            var respuesta = MessageBox.Show("Esta saliendo de toda la aplicacion, esta seguro?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+               
+            if (respuesta== DialogResult.Yes)
                 {
-                MessageBox.Show("Adios, hasta la próxima  ;)  ");
+                MessageBox.Show("hasta la próxima ;) ", "Adios");
                 this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("Perfecto, ahora ingrese usuario y contraseña para seguir por favor");
+                    MessageBox.Show("Perfecto, ahora ingrese usuario y contraseña para seguir por favor","Genial");
                 }           
            
         }

@@ -53,7 +53,7 @@ namespace Proyecto_Gym_Forms.View
         {
             if(txtDNI.Text== "")
             {
-                MessageBox.Show("Debe ingresar el DNI del alumno que quiere editar");
+                MessageBox.Show("Debe ingresar el DNI del alumno que quiere editar", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             
@@ -61,7 +61,7 @@ namespace Proyecto_Gym_Forms.View
 
             if (alumno.nombre== null)
             {
-                MessageBox.Show("Atención, el DNI no existe en nuestros registros");
+                MessageBox.Show("Atención, el DNI no existe en nuestros registros", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else
@@ -115,10 +115,10 @@ namespace Proyecto_Gym_Forms.View
 
             if (IniciarSecion.service.actualizarAlumno(alumno))
             {
-                MessageBox.Show("Se actualizo con exito!!");
+                MessageBox.Show("Se actualizo con exito!!", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }else
             {
-                MessageBox.Show("Error al actualizar el alumno!");
+                MessageBox.Show("Error al actualizar el alumno!", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             

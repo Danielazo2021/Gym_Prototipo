@@ -23,12 +23,7 @@ namespace Proyecto_Gym_Forms.View
             btnConfirmarAsistencia.Enabled = false;
 
         }
-
-        private void RegistrarAsistencia_Load(object sender, EventArgs e)
-        {
-
-        }
-
+                
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -39,22 +34,28 @@ namespace Proyecto_Gym_Forms.View
 
             if (txtDNI.Text == "")
             {
-                MessageBox.Show("Debe ingresar el DNI del alumno que quiere registrar la asistencia", "Atención");
+                MessageBox.Show("Debe ingresar el DNI del alumno que quiere registrar la asistencia", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            Alumno alumno = IniciarSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
-
-            if (alumno.nombre == null)
+            try
             {
-                MessageBox.Show("Atención, el DNI no existe en nuestros registros", "Atención");
-                return;
+                Alumno alumno = IniciarSecion.service.consultaAlumno(Convert.ToInt32(txtDNI.Text));
+
+                if (alumno.nombre == null)
+                {
+                    MessageBox.Show("Atención, el DNI no existe en nuestros registros", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else
+                {               
+                    txtNombre.Text = alumno.nombre;
+                    txtApellido.Text = alumno.apellido;
+                    btnConfirmarAsistencia.Enabled = true;
+                }
             }
-            else
-            {               
-                txtNombre.Text = alumno.nombre;
-                txtApellido.Text = alumno.apellido;
-                btnConfirmarAsistencia.Enabled = true;
+            catch (Exception exeption)
+            {
+
             }
         }
 
@@ -68,7 +69,7 @@ namespace Proyecto_Gym_Forms.View
         {
             if (txtDNI.Text == "")
             {
-                MessageBox.Show("Debe ingresar el DNI del alumno que quiere registrar la asistencia", "Atención");
+                MessageBox.Show("Debe ingresar el DNI del alumno que quiere registrar la asistencia", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             else
@@ -79,12 +80,12 @@ namespace Proyecto_Gym_Forms.View
                 bool resultado= IniciarSecion.service.registrarAsistencia(asistencia);
                 if (resultado)
                 {
-                    MessageBox.Show("Se registro con exito la asistencia!!");
+                    MessageBox.Show("Se registro con exito la asistencia!!", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     limpiarCampos();
                 }
                 else
                 {
-                    MessageBox.Show("Error al registrar la asistencia");
+                    MessageBox.Show("Error al registrar la asistencia", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
 
@@ -98,6 +99,11 @@ namespace Proyecto_Gym_Forms.View
             txtApellido.Text = "";
             txtDNI.Text = "";
             btnConfirmarAsistencia.Enabled = false;
+        }
+
+        private void RegistrarAsistencia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

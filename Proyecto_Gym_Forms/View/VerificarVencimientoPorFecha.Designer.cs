@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Gym_Forms.View
 {
-    partial class VerificarVencimiento
+    partial class VerificarVencimientoPorFecha
     {
         /// <summary>
         /// Required designer variable.

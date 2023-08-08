@@ -56,22 +56,22 @@ namespace Proyecto_Gym_Forms.View
 
             if (txtDNI.Text == "")
             {
-                MessageBox.Show("debe ingresar el DNI");
+                MessageBox.Show("debe ingresar el DNI", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (cboFormasDePago.Text == "")
             {
-                MessageBox.Show("debe seleccionar una forma de pago");
+                MessageBox.Show("debe seleccionar una forma de pago", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (txtMontoCuota.Text == "")
             {
-                MessageBox.Show("debe ingresar el Monto de la cuota");
+                MessageBox.Show("debe ingresar el Monto de la cuota", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             if (txtResponsable.Text == "")
             {
-                MessageBox.Show("debe ingresar el Responsable del cobro");
+                MessageBox.Show("debe ingresar el Responsable del cobro", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             
@@ -89,13 +89,13 @@ namespace Proyecto_Gym_Forms.View
 
             if(IniciarSecion.service.cobrarCuota(datosCuota))
             {
-                MessageBox.Show("Se registro el cobro con exito", "Exitoso!!");
+                MessageBox.Show("Se registro el cobro con exito", "Exitoso!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 limpiarCampos();
 
             }
             else
             {
-                MessageBox.Show("Ocurrio un error al registrar cobro","Error!");
+                MessageBox.Show("Ocurrio un error al registrar cobro", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 
@@ -120,7 +120,7 @@ namespace Proyecto_Gym_Forms.View
         {
             if (txtDNI.Text == "")
             {
-                MessageBox.Show("Debe ingresar el DNI del alumno que quiere pagar la cuota", "Atención");
+                MessageBox.Show("Debe ingresar el DNI del alumno que quiere pagar la cuota", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -128,7 +128,7 @@ namespace Proyecto_Gym_Forms.View
 
             if (alumno.nombre == null)
             {
-                MessageBox.Show("Atención, el DNI no existe en nuestros registros","Atención");
+                MessageBox.Show("Atención, el DNI no existe en nuestros registros", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else
@@ -136,17 +136,13 @@ namespace Proyecto_Gym_Forms.View
                 habilitarCampos(true);
                 txtNombre.Text = alumno.nombre;
                 txtApellido.Text = alumno.apellido;
-
             }
-
-
 
         }
 
         private void dtpInicioCuota_ValueChanged(object sender, EventArgs e)
         {
-            calcularVencimiento();
-           
+            calcularVencimiento();           
         }
 
         private void calcularVencimiento()
@@ -163,9 +159,7 @@ namespace Proyecto_Gym_Forms.View
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-
             limpiarCampos();
-
         }
 
         private void PagarCuota_Load(object sender, EventArgs e)

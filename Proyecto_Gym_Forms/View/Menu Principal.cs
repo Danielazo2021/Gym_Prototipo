@@ -49,7 +49,7 @@ namespace Proyecto_Gym_Forms.View
 
         private void btnVerificarVencimiento_Click(object sender, EventArgs e)
         {
-            VerificarVencimiento verificarVencimiento = new VerificarVencimiento();
+            VerificarVencimientoPorFecha verificarVencimiento = new VerificarVencimientoPorFecha();
             verificarVencimiento.ShowDialog();
 
         }
@@ -71,6 +71,13 @@ namespace Proyecto_Gym_Forms.View
         {
             RegistrarAsistencia registrarAsistencia= new RegistrarAsistencia();
             registrarAsistencia.ShowDialog();
+        }
+
+        private void btnConsultarAsistencia_Click(object sender, EventArgs e)
+        {
+            ConsultarAsistencia consultarAsistencia= new ConsultarAsistencia();
+            consultarAsistencia.ShowDialog();
+
         }
     }
 }

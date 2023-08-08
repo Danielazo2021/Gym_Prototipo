@@ -15,8 +15,7 @@ namespace Proyecto_Gym_Forms.DataAccess
     public class DAO :IDAO
     {
      
-        SqlConnection cnn = new SqlConnection(Properties.Resources.conexionBD);
-              
+        SqlConnection cnn = new SqlConnection(Properties.Resources.conexionBD);              
 
         public bool agregarAlumno(Alumno alumno)
         {
@@ -53,7 +52,6 @@ namespace Proyecto_Gym_Forms.DataAccess
 
 
         }
-
         public bool actualizarAlumno(Alumno alumno)
         {
             bool confirmacion = false;
@@ -84,11 +82,7 @@ namespace Proyecto_Gym_Forms.DataAccess
                     cnn.Close();
             }
             return confirmacion;
-        }
-              
-
-       
-
+        }                    
         public Alumno consultaAlumno(int dni)
         {
            Alumno resultado=new Alumno();
@@ -126,7 +120,6 @@ namespace Proyecto_Gym_Forms.DataAccess
             }
             return resultado;
         }
-
         public DataTable consultaAlumno(string nombre)
         {
             DataTable tabla = new DataTable();
@@ -203,7 +196,6 @@ namespace Proyecto_Gym_Forms.DataAccess
 
             return tabla;
         }
-
         public bool cobrarCuota(DatosCuotas datosCuotas)
         {
             bool confirmacion = false;
@@ -264,10 +256,7 @@ namespace Proyecto_Gym_Forms.DataAccess
             }
 
             return tabla;
-        }
-
-      
-
+        }      
         public DataTable buscarProximosVencimientos(DateTime desde, DateTime hasta)
         {
             DataTable tabla = new DataTable();
@@ -296,7 +285,6 @@ namespace Proyecto_Gym_Forms.DataAccess
             return tabla;
 
         }
-
         public bool validarLogin(Login login)
         {
             bool status = false;
@@ -328,7 +316,6 @@ namespace Proyecto_Gym_Forms.DataAccess
 
             return status;
         }
-
         public bool registrarAsistencia(Asistencia asistencia)
         {
             bool confirmacion = false;
@@ -356,6 +343,30 @@ namespace Proyecto_Gym_Forms.DataAccess
             }
             return confirmacion;
 
+        }
+        public DataTable consultarAsistencia(int dni)
+        {
+            DataTable tabla = new DataTable();
+            try
+            {
+                cnn.Open();
+                SqlCommand cmd = new SqlCommand("PA_Consultar_Asistencia_Por_Dni", cnn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@dni", dni);
+                tabla.Load(cmd.ExecuteReader());
+                cnn.Close();
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+            }
+
+            return tabla;
         }
     }
 }

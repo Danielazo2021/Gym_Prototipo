@@ -66,7 +66,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(212, 226);
+            this.btnSalir.Location = new System.Drawing.Point(223, 226);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 56);
             this.btnSalir.TabIndex = 3;
@@ -137,7 +137,6 @@
             this.Controls.Add(this.dtpFecha);
             this.Name = "IniciarSecion";
             this.Text = "Ingresar al sistema";
-           
             this.gbxLogin.ResumeLayout(false);
             this.gbxLogin.PerformLayout();
             this.ResumeLayout(false);

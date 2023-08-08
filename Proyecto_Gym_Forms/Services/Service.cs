@@ -75,5 +75,10 @@ namespace Proyecto_Gym_Forms.Services
         {
             return dao.registrarAsistencia(asistencia);
         }
+
+        public DataTable consultarAsistencia(int dni)
+        {
+            return dao.consultarAsistencia(dni); 
+        }
     }
 }

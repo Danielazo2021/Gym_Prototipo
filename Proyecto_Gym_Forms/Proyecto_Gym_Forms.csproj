@@ -207,6 +207,12 @@
     <Compile Include="View\AgregarAlumno.Designer.cs">
       <DependentUpon>AgregarAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\ConsultarAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ConsultarAsistencia.Designer.cs">
+      <DependentUpon>ConsultarAsistencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\ConsultarCuotasPorDia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -251,14 +257,17 @@
     <Compile Include="View\RegistrarAsistencia.Designer.cs">
       <DependentUpon>RegistrarAsistencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\VerificarVencimiento.cs">
+    <Compile Include="View\VerificarVencimientoPorFecha.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\VerificarVencimiento.Designer.cs">
-      <DependentUpon>VerificarVencimiento.cs</DependentUpon>
+    <Compile Include="View\VerificarVencimientoPorFecha.Designer.cs">
+      <DependentUpon>VerificarVencimientoPorFecha.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="View\AgregarAlumno.resx">
       <DependentUpon>AgregarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ConsultarAsistencia.resx">
+      <DependentUpon>ConsultarAsistencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ConsultarCuotasPorDia.resx">
       <DependentUpon>ConsultarCuotasPorDia.cs</DependentUpon>
@@ -291,8 +300,8 @@
     <EmbeddedResource Include="View\RegistrarAsistencia.resx">
       <DependentUpon>RegistrarAsistencia.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\VerificarVencimiento.resx">
-      <DependentUpon>VerificarVencimiento.cs</DependentUpon>
+    <EmbeddedResource Include="View\VerificarVencimientoPorFecha.resx">
+      <DependentUpon>VerificarVencimientoPorFecha.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="GYM_SergioDataSet.xsc">
       <DependentUpon>GYM_SergioDataSet.xsd</DependentUpon>

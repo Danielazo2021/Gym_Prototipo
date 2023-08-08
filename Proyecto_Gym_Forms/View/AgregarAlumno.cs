@@ -24,27 +24,28 @@ namespace Proyecto_Gym_Forms.View
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            Alumno alumno = new Alumno();
-            alumno.nombre = txtNombre.Text;
-            alumno.apellido = txtApellido.Text;
-            alumno.dni = Convert.ToInt32(txtDNI.Text);
-            alumno.edad = Convert.ToInt32(txtEdad.Text);
-            alumno.sexo = cboSexo.SelectedItem.ToString();
-            if (txtObservaciones.Text == "")
-            {
-                alumno.observaciones = "ok";
-            }
+          
+                Alumno alumno = new Alumno();
+                alumno.nombre = txtNombre.Text;
+                alumno.apellido = txtApellido.Text;
+                alumno.dni = Convert.ToInt32(txtDNI.Text);
+                alumno.edad = Convert.ToInt32(txtEdad.Text);
+                alumno.sexo = cboSexo.SelectedItem.ToString();
+                if (txtObservaciones.Text == "")
+                {
+                    alumno.observaciones = "ok";
+                }
                 else
                 {
                     alumno.observaciones = txtObservaciones.Text;
                 }
-            alumno.fechaAlta=dtpFechaDeAlta.Value;
+                alumno.fechaAlta = dtpFechaDeAlta.Value;
 
-            if (IniciarSecion.service.consultaAlumno(alumno.dni).nombre != null)
-            {
-                MessageBox.Show("Atención, ya existe un alumno cargado con ese DNI");
-               
-            }
+                if (IniciarSecion.service.consultaAlumno(alumno.dni).nombre != null)
+                {
+                    MessageBox.Show("Ya existe un alumno cargado con ese DNI", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                }
                 else if (IniciarSecion.service.agregarAlumno(alumno))
                 {
                     MessageBox.Show("Alumno agregado con exito");
@@ -53,8 +54,10 @@ namespace Proyecto_Gym_Forms.View
                 }
                 else
                 {
-                    MessageBox.Show("Error al agregar el alumno");
+                    MessageBox.Show("Error al agregar el alumno", "ERROR!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+            
+         
         }
 
         private void borrarCampos()
@@ -74,7 +77,7 @@ namespace Proyecto_Gym_Forms.View
 
         private void cargarCombo()
         {
-            string[] sexos = { "m", "f", "x" };
+            string[] sexos = { "M", "F", "X" };
             cboSexo.DataSource = sexos;
 
         }

@@ -23,7 +23,7 @@ namespace Proyecto_Gym_Forms.View
         {
 
             dgvResultados.DataSource = null;
-
+            
             dgvResultados.DataSource = IniciarSecion.service.consultarCuotas(dtpFecha.Value);
 
 

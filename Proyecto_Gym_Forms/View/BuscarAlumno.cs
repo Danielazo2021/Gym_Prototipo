@@ -85,5 +85,7 @@ namespace Proyecto_Gym_Forms.View
             }
 
         }
+
+    
     }
 }

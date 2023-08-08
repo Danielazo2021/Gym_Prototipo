@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.gbxAgregarAlumno = new System.Windows.Forms.GroupBox();
+            this.dtpFechaDeAlta = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
@@ -45,8 +47,6 @@
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dtpFechaDeAlta = new System.Windows.Forms.DateTimePicker();
             this.gbxAgregarAlumno.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,6 +74,23 @@
             this.gbxAgregarAlumno.Size = new System.Drawing.Size(395, 387);
             this.gbxAgregarAlumno.TabIndex = 1;
             this.gbxAgregarAlumno.TabStop = false;
+            // 
+            // dtpFechaDeAlta
+            // 
+            this.dtpFechaDeAlta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaDeAlta.Location = new System.Drawing.Point(151, 294);
+            this.dtpFechaDeAlta.Name = "dtpFechaDeAlta";
+            this.dtpFechaDeAlta.Size = new System.Drawing.Size(99, 20);
+            this.dtpFechaDeAlta.TabIndex = 16;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(36, 300);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Fecha de alta";
             // 
             // label5
             // 
@@ -212,23 +229,6 @@
             this.btnBack.Text = "Volver atrás";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 300);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Fecha de alta";
-            // 
-            // dtpFechaDeAlta
-            // 
-            this.dtpFechaDeAlta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaDeAlta.Location = new System.Drawing.Point(151, 294);
-            this.dtpFechaDeAlta.Name = "dtpFechaDeAlta";
-            this.dtpFechaDeAlta.Size = new System.Drawing.Size(99, 20);
-            this.dtpFechaDeAlta.TabIndex = 16;
             // 
             // AgregarAlumno
             // 

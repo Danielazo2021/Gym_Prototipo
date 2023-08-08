@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_Gym_Forms.View
 {
-    public partial class VerificarVencimiento : Form
+    public partial class VerificarVencimientoPorFecha : Form
     {
-        public VerificarVencimiento()
+        public VerificarVencimientoPorFecha()
         {
             InitializeComponent();
            
