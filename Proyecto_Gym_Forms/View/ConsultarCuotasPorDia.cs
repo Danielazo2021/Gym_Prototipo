@@ -25,15 +25,15 @@ namespace Proyecto_Gym_Forms.View
             dgvResultados.DataSource = null;
             
             dgvResultados.DataSource = IniciarSecion.service.consultarCuotas(dtpFecha.Value);
-
+            ResizeColumnsToFit();
 
         }
-
-        private void ConsultarCuotasPorDia_Load(object sender, EventArgs e)
+        private void ResizeColumnsToFit()
         {
-
+            dgvResultados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
+      
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();

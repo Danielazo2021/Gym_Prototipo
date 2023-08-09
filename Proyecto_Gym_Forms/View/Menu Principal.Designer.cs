@@ -44,9 +44,10 @@
             this.btnNuevoAlumno.BackColor = System.Drawing.Color.Black;
             this.btnNuevoAlumno.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevoAlumno.ForeColor = System.Drawing.Color.Transparent;
-            this.btnNuevoAlumno.Location = new System.Drawing.Point(70, 56);
+            this.btnNuevoAlumno.Location = new System.Drawing.Point(105, 86);
+            this.btnNuevoAlumno.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNuevoAlumno.Name = "btnNuevoAlumno";
-            this.btnNuevoAlumno.Size = new System.Drawing.Size(163, 122);
+            this.btnNuevoAlumno.Size = new System.Drawing.Size(244, 188);
             this.btnNuevoAlumno.TabIndex = 0;
             this.btnNuevoAlumno.Text = "Registrar nuevo alumno";
             this.btnNuevoAlumno.UseVisualStyleBackColor = false;
@@ -57,9 +58,10 @@
             this.btnPagarCuota.BackColor = System.Drawing.Color.Black;
             this.btnPagarCuota.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagarCuota.ForeColor = System.Drawing.Color.Transparent;
-            this.btnPagarCuota.Location = new System.Drawing.Point(284, 56);
+            this.btnPagarCuota.Location = new System.Drawing.Point(426, 86);
+            this.btnPagarCuota.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPagarCuota.Name = "btnPagarCuota";
-            this.btnPagarCuota.Size = new System.Drawing.Size(171, 122);
+            this.btnPagarCuota.Size = new System.Drawing.Size(256, 188);
             this.btnPagarCuota.TabIndex = 1;
             this.btnPagarCuota.Text = "Pagar cuota";
             this.btnPagarCuota.UseVisualStyleBackColor = false;
@@ -70,9 +72,10 @@
             this.btnActualizarAlumno.BackColor = System.Drawing.Color.Black;
             this.btnActualizarAlumno.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizarAlumno.ForeColor = System.Drawing.Color.Transparent;
-            this.btnActualizarAlumno.Location = new System.Drawing.Point(70, 195);
+            this.btnActualizarAlumno.Location = new System.Drawing.Point(105, 300);
+            this.btnActualizarAlumno.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnActualizarAlumno.Name = "btnActualizarAlumno";
-            this.btnActualizarAlumno.Size = new System.Drawing.Size(163, 123);
+            this.btnActualizarAlumno.Size = new System.Drawing.Size(244, 189);
             this.btnActualizarAlumno.TabIndex = 2;
             this.btnActualizarAlumno.Text = "Actualizar datos del alumno";
             this.btnActualizarAlumno.UseVisualStyleBackColor = false;
@@ -83,9 +86,10 @@
             this.btnVerificarVencimiento.BackColor = System.Drawing.Color.Black;
             this.btnVerificarVencimiento.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerificarVencimiento.ForeColor = System.Drawing.Color.Transparent;
-            this.btnVerificarVencimiento.Location = new System.Drawing.Point(284, 195);
+            this.btnVerificarVencimiento.Location = new System.Drawing.Point(426, 300);
+            this.btnVerificarVencimiento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVerificarVencimiento.Name = "btnVerificarVencimiento";
-            this.btnVerificarVencimiento.Size = new System.Drawing.Size(171, 128);
+            this.btnVerificarVencimiento.Size = new System.Drawing.Size(256, 197);
             this.btnVerificarVencimiento.TabIndex = 3;
             this.btnVerificarVencimiento.Text = "Vencimientos por fecha";
             this.btnVerificarVencimiento.UseVisualStyleBackColor = false;
@@ -96,9 +100,10 @@
             this.btnBack.BackColor = System.Drawing.Color.Black;
             this.btnBack.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBack.Location = new System.Drawing.Point(743, 365);
+            this.btnBack.Location = new System.Drawing.Point(1114, 562);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(147, 60);
+            this.btnBack.Size = new System.Drawing.Size(220, 92);
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "Volver atrás";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -109,9 +114,10 @@
             this.btnBuscarPorNombreYApellido.BackColor = System.Drawing.Color.Black;
             this.btnBuscarPorNombreYApellido.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarPorNombreYApellido.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(545, 81);
+            this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(818, 125);
+            this.btnBuscarPorNombreYApellido.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuscarPorNombreYApellido.Name = "btnBuscarPorNombreYApellido";
-            this.btnBuscarPorNombreYApellido.Size = new System.Drawing.Size(150, 73);
+            this.btnBuscarPorNombreYApellido.Size = new System.Drawing.Size(225, 112);
             this.btnBuscarPorNombreYApellido.TabIndex = 5;
             this.btnBuscarPorNombreYApellido.Text = "Buscar alumno por nombre y apellido";
             this.btnBuscarPorNombreYApellido.UseVisualStyleBackColor = false;
@@ -122,9 +128,10 @@
             this.btnRegistrarAsistencia.BackColor = System.Drawing.Color.Black;
             this.btnRegistrarAsistencia.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarAsistencia.ForeColor = System.Drawing.Color.Transparent;
-            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(722, 81);
+            this.btnRegistrarAsistencia.Location = new System.Drawing.Point(1083, 125);
+            this.btnRegistrarAsistencia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRegistrarAsistencia.Name = "btnRegistrarAsistencia";
-            this.btnRegistrarAsistencia.Size = new System.Drawing.Size(150, 73);
+            this.btnRegistrarAsistencia.Size = new System.Drawing.Size(225, 112);
             this.btnRegistrarAsistencia.TabIndex = 7;
             this.btnRegistrarAsistencia.Text = "Registrar asistencia";
             this.btnRegistrarAsistencia.UseVisualStyleBackColor = false;
@@ -135,9 +142,10 @@
             this.btnConsultarCuotasPorDia.BackColor = System.Drawing.Color.Black;
             this.btnConsultarCuotasPorDia.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarCuotasPorDia.ForeColor = System.Drawing.Color.Transparent;
-            this.btnConsultarCuotasPorDia.Location = new System.Drawing.Point(545, 173);
+            this.btnConsultarCuotasPorDia.Location = new System.Drawing.Point(818, 266);
+            this.btnConsultarCuotasPorDia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConsultarCuotasPorDia.Name = "btnConsultarCuotasPorDia";
-            this.btnConsultarCuotasPorDia.Size = new System.Drawing.Size(150, 73);
+            this.btnConsultarCuotasPorDia.Size = new System.Drawing.Size(225, 112);
             this.btnConsultarCuotasPorDia.TabIndex = 8;
             this.btnConsultarCuotasPorDia.Text = "Consultar cuotas por día";
             this.btnConsultarCuotasPorDia.UseVisualStyleBackColor = false;
@@ -148,9 +156,10 @@
             this.btnConsultarAsistencia.BackColor = System.Drawing.Color.Black;
             this.btnConsultarAsistencia.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarAsistencia.ForeColor = System.Drawing.Color.Transparent;
-            this.btnConsultarAsistencia.Location = new System.Drawing.Point(722, 173);
+            this.btnConsultarAsistencia.Location = new System.Drawing.Point(1083, 266);
+            this.btnConsultarAsistencia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConsultarAsistencia.Name = "btnConsultarAsistencia";
-            this.btnConsultarAsistencia.Size = new System.Drawing.Size(150, 73);
+            this.btnConsultarAsistencia.Size = new System.Drawing.Size(225, 112);
             this.btnConsultarAsistencia.TabIndex = 9;
             this.btnConsultarAsistencia.Text = "Consultar asistencia";
             this.btnConsultarAsistencia.UseVisualStyleBackColor = false;
@@ -158,10 +167,10 @@
             // 
             // Menu_Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(911, 437);
+            this.ClientSize = new System.Drawing.Size(1366, 672);
             this.Controls.Add(this.btnConsultarAsistencia);
             this.Controls.Add(this.btnConsultarCuotasPorDia);
             this.Controls.Add(this.btnRegistrarAsistencia);
@@ -171,6 +180,8 @@
             this.Controls.Add(this.btnActualizarAlumno);
             this.Controls.Add(this.btnPagarCuota);
             this.Controls.Add(this.btnNuevoAlumno);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Menu_Principal";
             this.Text = "Menu_Principal";
             this.Load += new System.EventHandler(this.Menu_Principal_Load);

@@ -40,10 +40,15 @@ namespace Proyecto_Gym_Forms.View
                 txtNombre.Text = alumno.nombre;
                 txtApellido.Text = alumno.apellido;
                dgvMostrarDatos.DataSource= IniciarSecion.service.consultarAsistencia(Convert.ToInt32(txtDNI.Text));
-
+                ResizeColumnsToFit();
             }
 
 
+        }
+
+        private void ResizeColumnsToFit()
+        {
+            dgvMostrarDatos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void btnBack_Click(object sender, EventArgs e)

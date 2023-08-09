@@ -15,6 +15,8 @@ namespace Proyecto_Gym_Forms
         public  string sexo { get; set; }
         public string observaciones { get; set; } = null;
         public DateTime fechaAlta { get; set; }
+        public string contactoDeEmergencia { get; set; }
+        public string telefono { get; set; }
 
     }
 }

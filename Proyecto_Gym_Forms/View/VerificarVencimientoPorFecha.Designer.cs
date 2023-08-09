@@ -36,7 +36,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvResultados
@@ -44,104 +46,119 @@
             this.dgvResultados.AllowUserToAddRows = false;
             this.dgvResultados.AllowUserToDeleteRows = false;
             this.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvResultados.Location = new System.Drawing.Point(193, 168);
+            this.dgvResultados.Location = new System.Drawing.Point(41, 107);
             this.dgvResultados.Name = "dgvResultados";
             this.dgvResultados.ReadOnly = true;
-            this.dgvResultados.Size = new System.Drawing.Size(728, 202);
+            this.dgvResultados.Size = new System.Drawing.Size(768, 223);
             this.dgvResultados.TabIndex = 0;
-            this.dgvResultados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvResultados_CellContentClick);
+
             // 
             // dtpHasta
             // 
             this.dtpHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpHasta.Location = new System.Drawing.Point(509, 88);
+            this.dtpHasta.Location = new System.Drawing.Point(436, 56);
             this.dtpHasta.Name = "dtpHasta";
-            this.dtpHasta.Size = new System.Drawing.Size(134, 26);
+            this.dtpHasta.Size = new System.Drawing.Size(133, 26);
             this.dtpHasta.TabIndex = 1;
-            this.dtpHasta.ValueChanged += new System.EventHandler(this.dtpHasta_ValueChanged);
+         
             // 
             // dtpDesde
             // 
             this.dtpDesde.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.dtpDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDesde.Location = new System.Drawing.Point(235, 89);
+            this.dtpDesde.Location = new System.Drawing.Point(162, 57);
             this.dtpDesde.Name = "dtpDesde";
             this.dtpDesde.Size = new System.Drawing.Size(129, 26);
             this.dtpDesde.TabIndex = 2;
-            this.dtpDesde.ValueChanged += new System.EventHandler(this.dtpDesde_ValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
             this.label1.Location = new System.Drawing.Point(355, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 26);
+            this.label1.Size = new System.Drawing.Size(226, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "Proximos vencimientos";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(148, 89);
+            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 12F);
+            this.label2.Location = new System.Drawing.Point(75, 57);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 20);
+            this.label2.Size = new System.Drawing.Size(49, 18);
             this.label2.TabIndex = 4;
             this.label2.Text = "Desde";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(419, 88);
+            this.label3.Font = new System.Drawing.Font("Berlin Sans FB", 12F);
+            this.label3.Location = new System.Drawing.Point(346, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(47, 18);
             this.label3.TabIndex = 5;
             this.label3.Text = "Hasta";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(844, 376);
+            this.btnBack.BackColor = System.Drawing.Color.Black;
+            this.btnBack.ForeColor = System.Drawing.Color.Transparent;
+            this.btnBack.Location = new System.Drawing.Point(987, 379);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(158, 62);
+            this.btnBack.Size = new System.Drawing.Size(159, 62);
             this.btnBack.TabIndex = 6;
             this.btnBack.Text = "Volver atrás";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(745, 68);
+            this.btnBuscar.BackColor = System.Drawing.Color.Black;
+            this.btnBuscar.ForeColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.Location = new System.Drawing.Point(617, 44);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(158, 47);
+            this.btnBuscar.Size = new System.Drawing.Size(159, 47);
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // VerificarVencimiento
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.dgvResultados);
+            this.groupBox1.Controls.Add(this.btnBuscar);
+            this.groupBox1.Controls.Add(this.dtpHasta);
+            this.groupBox1.Controls.Add(this.dtpDesde);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Location = new System.Drawing.Point(73, 77);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(849, 349);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            // 
+            // VerificarVencimientoPorFecha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(1195, 450);
-            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dtpDesde);
-            this.Controls.Add(this.dtpHasta);
-            this.Controls.Add(this.dgvResultados);
-            this.Name = "VerificarVencimiento";
+            this.Font = new System.Drawing.Font("Berlin Sans FB", 9F);
+            this.Name = "VerificarVencimientoPorFecha";
             this.Text = "VerificarVencimiento";
-            this.Load += new System.EventHandler(this.VerificarVencimiento_Load);
+           
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +174,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -20,11 +20,6 @@ namespace Proyecto_Gym_Forms.View
 
         }
 
-        private void VerificarVencimiento_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -36,37 +31,15 @@ namespace Proyecto_Gym_Forms.View
             dgvResultados.DataSource = null;
 
             dgvResultados.DataSource= IniciarSecion.service.buscarProximosVencimientos(dtpDesde.Value, dtpHasta.Value);
-
+            ResizeColumnsToFit();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+       
+        private void ResizeColumnsToFit()
         {
-
+            dgvResultados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dtpDesde_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dtpHasta_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvResultados_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

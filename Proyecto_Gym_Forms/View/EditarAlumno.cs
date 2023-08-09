@@ -16,8 +16,7 @@ namespace Proyecto_Gym_Forms.View
         public EditarAlumno()
         {
             InitializeComponent();
-            this.Width = 800;
-            this.Height = 600;
+           
             this.StartPosition = FormStartPosition.CenterScreen;
 
             cargarCombo();
@@ -72,6 +71,8 @@ namespace Proyecto_Gym_Forms.View
                 txtApellido.Text = alumno.apellido;
                 txtEdad.Text= alumno.edad.ToString();
                 txtObservaciones.Text = alumno.observaciones;
+                txtTelefono.Text = alumno.telefono;
+                txtInfoEmergencia.Text = alumno.contactoDeEmergencia;
                 switch (alumno.sexo)
                 {
                     case "M":
@@ -104,6 +105,8 @@ namespace Proyecto_Gym_Forms.View
             alumno.dni = Convert.ToInt32(txtDNI.Text);
             alumno.edad = Convert.ToInt32(txtEdad.Text);
             alumno.sexo = cboSexo.SelectedItem.ToString();
+            alumno.telefono = txtTelefono.Text;
+            alumno.contactoDeEmergencia= txtInfoEmergencia.Text;
             if (txtObservaciones.Text == "")
             {
                 alumno.observaciones = "ok";
@@ -138,6 +141,8 @@ namespace Proyecto_Gym_Forms.View
             txtDNI.Clear();
             txtEdad.Clear();
             txtObservaciones.Clear();
+            txtInfoEmergencia.Clear();
+            txtTelefono.Clear();
 
         }
     }

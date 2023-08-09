@@ -31,6 +31,9 @@ namespace Proyecto_Gym_Forms.View
                 alumno.dni = Convert.ToInt32(txtDNI.Text);
                 alumno.edad = Convert.ToInt32(txtEdad.Text);
                 alumno.sexo = cboSexo.SelectedItem.ToString();
+                alumno.contactoDeEmergencia= txtInfoEmergencia.Text.Trim();
+                alumno.telefono = txtTelefono.Text;
+
                 if (txtObservaciones.Text == "")
                 {
                     alumno.observaciones = "ok";
@@ -91,5 +94,6 @@ namespace Proyecto_Gym_Forms.View
         {
             this.Close();
         }
+
     }
 }

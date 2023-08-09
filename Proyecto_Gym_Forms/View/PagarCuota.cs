@@ -31,8 +31,7 @@ namespace Proyecto_Gym_Forms.View
 
         private void cargarFormasDePago()
         {
-            string[] formasDePago = { "Efectivo", "Tarjeta De Debito","Tarjeta De Credito",
-                                    "Transferencia", "Mercado Pago", "Otros(Aclarar en Observaciones)" };
+            string[] formasDePago = { "Efectivo","Transferencia", "Otros (Aclarar en Observaciones)" };
             cboFormasDePago.DataSource = formasDePago;
 
         }
@@ -82,7 +81,7 @@ namespace Proyecto_Gym_Forms.View
             datosCuota.fechaInicio = dtpInicioCuota.Value;
             datosCuota.fechaVencimiento = dtpFinCuota.Value;
             datosCuota.observaciones = txtObservaciones.Text;
-            datosCuota.responsableDeCobro = txtResponsable.Text;
+            datosCuota.responsableDeCobro = txtResponsable.Text.Trim();
             datosCuota.formaDePago = cboFormasDePago.Text;
             datosCuota.fechaDelPago = dtpFechaDelPago.Value;
 

@@ -34,7 +34,8 @@ namespace Proyecto_Gym_Forms.DataAccess
                 cmdMaestro.Parameters.AddWithValue("@sexo", alumno.sexo);
                 cmdMaestro.Parameters.AddWithValue("@observaciones", alumno.observaciones);
                 cmdMaestro.Parameters.AddWithValue("@fechaDeAlta", alumno.fechaAlta);
-
+                cmdMaestro.Parameters.AddWithValue("@infoDeEmergencia", alumno.contactoDeEmergencia);
+                cmdMaestro.Parameters.AddWithValue("@telefono", alumno.telefono);
                 cmdMaestro.ExecuteNonQuery();
                 confirmacion = true;
 
@@ -68,6 +69,8 @@ namespace Proyecto_Gym_Forms.DataAccess
                 cmdMaestro.Parameters.AddWithValue("@edad", alumno.edad);
                 cmdMaestro.Parameters.AddWithValue("@sexo", alumno.sexo);
                 cmdMaestro.Parameters.AddWithValue("@observaciones", alumno.observaciones);
+                cmdMaestro.Parameters.AddWithValue("@infoDeEmergencia", alumno.contactoDeEmergencia);
+                cmdMaestro.Parameters.AddWithValue("@telefono", alumno.telefono);
 
                 cmdMaestro.ExecuteNonQuery();
                 confirmacion = true;
@@ -104,8 +107,9 @@ namespace Proyecto_Gym_Forms.DataAccess
                     resultado.apellido = row["apellido"].ToString();
                     resultado.edad = Convert.ToInt32(row["edad"]);
                     resultado.sexo = row["sexo"].ToString();
-                    resultado.observaciones = row["observaciones"].ToString();                
-
+                    resultado.observaciones = row["observaciones"].ToString();
+                    resultado.contactoDeEmergencia = row["contactoDeEmergencia"].ToString();
+                    resultado.telefono= row["telefono"].ToString();
                 }
                 cnn.Close();
 
