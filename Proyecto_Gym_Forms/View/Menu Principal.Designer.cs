@@ -42,7 +42,7 @@
             // btnNuevoAlumno
             // 
             this.btnNuevoAlumno.BackColor = System.Drawing.Color.Black;
-            this.btnNuevoAlumno.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevoAlumno.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevoAlumno.ForeColor = System.Drawing.Color.Transparent;
             this.btnNuevoAlumno.Location = new System.Drawing.Point(105, 86);
             this.btnNuevoAlumno.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -56,7 +56,7 @@
             // btnPagarCuota
             // 
             this.btnPagarCuota.BackColor = System.Drawing.Color.Black;
-            this.btnPagarCuota.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPagarCuota.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPagarCuota.ForeColor = System.Drawing.Color.Transparent;
             this.btnPagarCuota.Location = new System.Drawing.Point(426, 86);
             this.btnPagarCuota.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -70,7 +70,7 @@
             // btnActualizarAlumno
             // 
             this.btnActualizarAlumno.BackColor = System.Drawing.Color.Black;
-            this.btnActualizarAlumno.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarAlumno.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizarAlumno.ForeColor = System.Drawing.Color.Transparent;
             this.btnActualizarAlumno.Location = new System.Drawing.Point(105, 300);
             this.btnActualizarAlumno.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -84,7 +84,7 @@
             // btnVerificarVencimiento
             // 
             this.btnVerificarVencimiento.BackColor = System.Drawing.Color.Black;
-            this.btnVerificarVencimiento.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerificarVencimiento.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerificarVencimiento.ForeColor = System.Drawing.Color.Transparent;
             this.btnVerificarVencimiento.Location = new System.Drawing.Point(426, 300);
             this.btnVerificarVencimiento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -98,7 +98,7 @@
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Black;
-            this.btnBack.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
             this.btnBack.Location = new System.Drawing.Point(1114, 562);
             this.btnBack.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -112,7 +112,7 @@
             // btnBuscarPorNombreYApellido
             // 
             this.btnBuscarPorNombreYApellido.BackColor = System.Drawing.Color.Black;
-            this.btnBuscarPorNombreYApellido.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarPorNombreYApellido.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarPorNombreYApellido.ForeColor = System.Drawing.Color.Transparent;
             this.btnBuscarPorNombreYApellido.Location = new System.Drawing.Point(818, 125);
             this.btnBuscarPorNombreYApellido.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -126,7 +126,7 @@
             // btnRegistrarAsistencia
             // 
             this.btnRegistrarAsistencia.BackColor = System.Drawing.Color.Black;
-            this.btnRegistrarAsistencia.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarAsistencia.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarAsistencia.ForeColor = System.Drawing.Color.Transparent;
             this.btnRegistrarAsistencia.Location = new System.Drawing.Point(1083, 125);
             this.btnRegistrarAsistencia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -140,7 +140,7 @@
             // btnConsultarCuotasPorDia
             // 
             this.btnConsultarCuotasPorDia.BackColor = System.Drawing.Color.Black;
-            this.btnConsultarCuotasPorDia.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarCuotasPorDia.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarCuotasPorDia.ForeColor = System.Drawing.Color.Transparent;
             this.btnConsultarCuotasPorDia.Location = new System.Drawing.Point(818, 266);
             this.btnConsultarCuotasPorDia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -154,7 +154,7 @@
             // btnConsultarAsistencia
             // 
             this.btnConsultarAsistencia.BackColor = System.Drawing.Color.Black;
-            this.btnConsultarAsistencia.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarAsistencia.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultarAsistencia.ForeColor = System.Drawing.Color.Transparent;
             this.btnConsultarAsistencia.Location = new System.Drawing.Point(1083, 266);
             this.btnConsultarAsistencia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
