@@ -39,6 +39,7 @@
             this.lblApellido = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarDatos)).BeginInit();
             this.SuspendLayout();
@@ -54,19 +55,19 @@
             this.groupBox1.Controls.Add(this.txtDNI);
             this.groupBox1.Controls.Add(this.lblApellido);
             this.groupBox1.Controls.Add(this.lblNombre);
-            this.groupBox1.Location = new System.Drawing.Point(87, 32);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(117, 69);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(869, 622);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(995, 593);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             // 
             // dgvMostrarDatos
             // 
             this.dgvMostrarDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMostrarDatos.Location = new System.Drawing.Point(8, 209);
-            this.dgvMostrarDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvMostrarDatos.Location = new System.Drawing.Point(77, 189);
+            this.dgvMostrarDatos.Margin = new System.Windows.Forms.Padding(4);
             this.dgvMostrarDatos.Name = "dgvMostrarDatos";
             this.dgvMostrarDatos.Size = new System.Drawing.Size(845, 381);
             this.dgvMostrarDatos.TabIndex = 29;
@@ -74,21 +75,21 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(76, 46);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label3.Location = new System.Drawing.Point(72, 43);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 20);
+            this.label3.Size = new System.Drawing.Size(259, 26);
             this.label3.TabIndex = 26;
             this.label3.Text = "Ingrese el DNI de alumno";
             // 
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Black;
-            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.ForeColor = System.Drawing.Color.Transparent;
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.YellowGreen;
             this.btnBuscar.Location = new System.Drawing.Point(627, 40);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(172, 39);
             this.btnBuscar.TabIndex = 28;
@@ -98,10 +99,11 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(385, 111);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtNombre.Location = new System.Drawing.Point(370, 99);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(160, 25);
+            this.txtNombre.Size = new System.Drawing.Size(175, 31);
             this.txtNombre.TabIndex = 21;
             // 
             // label5
@@ -116,37 +118,41 @@
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(385, 147);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellido.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtApellido.Location = new System.Drawing.Point(370, 135);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(160, 25);
+            this.txtApellido.Size = new System.Drawing.Size(175, 31);
             this.txtApellido.TabIndex = 22;
             // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(385, 46);
-            this.txtDNI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDNI.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtDNI.Location = new System.Drawing.Point(370, 44);
+            this.txtDNI.Margin = new System.Windows.Forms.Padding(4);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(160, 25);
+            this.txtDNI.Size = new System.Drawing.Size(175, 31);
             this.txtDNI.TabIndex = 23;
             // 
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(245, 151);
+            this.lblApellido.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.lblApellido.Location = new System.Drawing.Point(233, 138);
             this.lblApellido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(62, 18);
+            this.lblApellido.Size = new System.Drawing.Size(89, 24);
             this.lblApellido.TabIndex = 25;
             this.lblApellido.Text = "Apellido";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(245, 111);
+            this.lblNombre.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.lblNombre.Location = new System.Drawing.Point(233, 98);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(62, 18);
+            this.lblNombre.Size = new System.Drawing.Size(87, 24);
             this.lblNombre.TabIndex = 24;
             this.lblNombre.Text = "Nombre";
             // 
@@ -155,8 +161,8 @@
             this.btnBack.BackColor = System.Drawing.Color.Black;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBack.Location = new System.Drawing.Point(1006, 601);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Location = new System.Drawing.Point(1184, 579);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(159, 83);
             this.btnBack.TabIndex = 31;
@@ -164,22 +170,37 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F);
+            this.label1.Location = new System.Drawing.Point(443, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(283, 36);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "Consultar asistencia";
+            // 
             // ConsultarAsistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(1208, 723);
+            this.ClientSize = new System.Drawing.Size(1356, 723);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Berlin Sans FB", 12F);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ConsultarAsistencia";
             this.Text = "ConsultarAsistencia";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ConsultarAsistencia_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarDatos)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -196,5 +217,6 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.DataGridView dgvMostrarDatos;
+        private System.Windows.Forms.Label label1;
     }
 }

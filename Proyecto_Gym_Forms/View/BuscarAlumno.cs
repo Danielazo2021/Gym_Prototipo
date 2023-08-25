@@ -17,6 +17,8 @@ namespace Proyecto_Gym_Forms.View
             InitializeComponent();
         
             this.StartPosition = FormStartPosition.CenterScreen;
+            dgvMostrarDatos.DefaultCellStyle.Font = new Font("Arial", 12);
+            dgvMostrarDatos.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 14);
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -77,7 +79,7 @@ namespace Proyecto_Gym_Forms.View
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult = MessageBox.Show("copio el numero de dni antes de tocar 'poner asistencia'??", "Atencion", MessageBoxButtons.YesNo);
+            DialogResult = MessageBox.Show("copio el numero de dni antes de tocar 'poner asistencia'??", "Atencion!!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if(DialogResult == DialogResult.Yes)
             {
                 RegistrarAsistencia registrarAsistencia = new RegistrarAsistencia();

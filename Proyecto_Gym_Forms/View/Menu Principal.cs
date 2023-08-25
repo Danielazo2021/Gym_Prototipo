@@ -79,5 +79,10 @@ namespace Proyecto_Gym_Forms.View
             consultarAsistencia.ShowDialog();
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

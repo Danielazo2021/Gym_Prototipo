@@ -17,6 +17,8 @@ namespace Proyecto_Gym_Forms.View
             InitializeComponent();
             txtApellido.Enabled = false;
             txtNombre.Enabled = false;
+            dgvMostrarDatos.DefaultCellStyle.Font = new Font("Arial", 12);
+            dgvMostrarDatos.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 14);
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -54,6 +56,11 @@ namespace Proyecto_Gym_Forms.View
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ConsultarAsistencia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

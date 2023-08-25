@@ -17,6 +17,8 @@ namespace Proyecto_Gym_Forms.View
             InitializeComponent();
            
             this.StartPosition = FormStartPosition.CenterScreen;
+            dgvResultados.DefaultCellStyle.Font = new Font("Arial", 12);
+            dgvResultados.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 14);
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -37,6 +39,11 @@ namespace Proyecto_Gym_Forms.View
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ConsultarCuotasPorDia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

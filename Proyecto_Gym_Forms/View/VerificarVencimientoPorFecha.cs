@@ -17,6 +17,9 @@ namespace Proyecto_Gym_Forms.View
             InitializeComponent();
            
             this.StartPosition = FormStartPosition.CenterScreen;
+            dgvResultados.DefaultCellStyle.Font = new Font("Arial", 12);
+            dgvResultados.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 14); 
+
 
         }
 

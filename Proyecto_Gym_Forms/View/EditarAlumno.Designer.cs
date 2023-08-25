@@ -76,61 +76,64 @@
             this.gbxActualizarAlumno.Controls.Add(this.txtDNI);
             this.gbxActualizarAlumno.Controls.Add(this.txtApellido);
             this.gbxActualizarAlumno.Controls.Add(this.txtNombre);
-            this.gbxActualizarAlumno.Location = new System.Drawing.Point(193, 17);
-            this.gbxActualizarAlumno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxActualizarAlumno.Location = new System.Drawing.Point(193, -5);
+            this.gbxActualizarAlumno.Margin = new System.Windows.Forms.Padding(4);
             this.gbxActualizarAlumno.Name = "gbxActualizarAlumno";
-            this.gbxActualizarAlumno.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.gbxActualizarAlumno.Size = new System.Drawing.Size(720, 702);
+            this.gbxActualizarAlumno.Padding = new System.Windows.Forms.Padding(4);
+            this.gbxActualizarAlumno.Size = new System.Drawing.Size(774, 685);
             this.gbxActualizarAlumno.TabIndex = 2;
             this.gbxActualizarAlumno.TabStop = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Berlin Sans FB", 12F);
-            this.label8.Location = new System.Drawing.Point(48, 428);
+            this.label8.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.label8.Location = new System.Drawing.Point(51, 413);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 18);
+            this.label8.Size = new System.Drawing.Size(89, 24);
             this.label8.TabIndex = 25;
             this.label8.Text = "Telefono";
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(289, 428);
-            this.txtTelefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTelefono.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtTelefono.Location = new System.Drawing.Point(289, 406);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(160, 25);
+            this.txtTelefono.Size = new System.Drawing.Size(255, 31);
             this.txtTelefono.TabIndex = 24;
             // 
             // txtInfoEmergencia
             // 
-            this.txtInfoEmergencia.Location = new System.Drawing.Point(289, 478);
-            this.txtInfoEmergencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtInfoEmergencia.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtInfoEmergencia.Location = new System.Drawing.Point(289, 457);
+            this.txtInfoEmergencia.Margin = new System.Windows.Forms.Padding(4);
             this.txtInfoEmergencia.Multiline = true;
             this.txtInfoEmergencia.Name = "txtInfoEmergencia";
-            this.txtInfoEmergencia.Size = new System.Drawing.Size(160, 57);
+            this.txtInfoEmergencia.Size = new System.Drawing.Size(255, 57);
             this.txtInfoEmergencia.TabIndex = 23;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Berlin Sans FB", 12F);
-            this.label7.Location = new System.Drawing.Point(48, 493);
+            this.label7.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.label7.Location = new System.Drawing.Point(51, 478);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 18);
+            this.label7.Size = new System.Drawing.Size(190, 24);
             this.label7.TabIndex = 22;
             this.label7.Text = "Info de Emergencia";
             // 
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Black;
-            this.btnBuscar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBuscar.Location = new System.Drawing.Point(484, 89);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Font = new System.Drawing.Font("Berlin Sans FB", 14F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.YellowGreen;
+            this.btnBuscar.Location = new System.Drawing.Point(622, 62);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(127, 33);
+            this.btnBuscar.Size = new System.Drawing.Size(144, 47);
             this.btnBuscar.TabIndex = 21;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -139,23 +142,24 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(148, 22);
+            this.label5.Location = new System.Drawing.Point(118, 22);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(457, 26);
+            this.label5.Size = new System.Drawing.Size(568, 31);
             this.label5.TabIndex = 14;
             this.label5.Text = "Atención, esta editando los datos del alumno!!";
             // 
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.Black;
-            this.btnCancelar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCancelar.Location = new System.Drawing.Point(366, 575);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancelar.Font = new System.Drawing.Font("Berlin Sans FB", 14F);
+            this.btnCancelar.ForeColor = System.Drawing.Color.Red;
+            this.btnCancelar.Location = new System.Drawing.Point(433, 575);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(160, 73);
+            this.btnCancelar.Size = new System.Drawing.Size(178, 73);
             this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -164,11 +168,12 @@
             // btnActualizar
             // 
             this.btnActualizar.BackColor = System.Drawing.Color.Black;
-            this.btnActualizar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnActualizar.Location = new System.Drawing.Point(167, 575);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnActualizar.Font = new System.Drawing.Font("Berlin Sans FB", 14F);
+            this.btnActualizar.ForeColor = System.Drawing.Color.YellowGreen;
+            this.btnActualizar.Location = new System.Drawing.Point(179, 575);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(160, 73);
+            this.btnActualizar.Size = new System.Drawing.Size(174, 73);
             this.btnActualizar.TabIndex = 12;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
@@ -176,120 +181,133 @@
             // 
             // txtObservaciones
             // 
-            this.txtObservaciones.Location = new System.Drawing.Point(289, 343);
-            this.txtObservaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtObservaciones.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtObservaciones.Location = new System.Drawing.Point(289, 324);
+            this.txtObservaciones.Margin = new System.Windows.Forms.Padding(4);
             this.txtObservaciones.Multiline = true;
             this.txtObservaciones.Name = "txtObservaciones";
-            this.txtObservaciones.Size = new System.Drawing.Size(251, 66);
+            this.txtObservaciones.Size = new System.Drawing.Size(255, 66);
             this.txtObservaciones.TabIndex = 11;
             // 
             // cboSexo
             // 
+            this.cboSexo.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
             this.cboSexo.FormattingEnabled = true;
-            this.cboSexo.Location = new System.Drawing.Point(289, 286);
-            this.cboSexo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboSexo.Location = new System.Drawing.Point(289, 272);
+            this.cboSexo.Margin = new System.Windows.Forms.Padding(4);
             this.cboSexo.Name = "cboSexo";
-            this.cboSexo.Size = new System.Drawing.Size(160, 26);
+            this.cboSexo.Size = new System.Drawing.Size(255, 31);
             this.cboSexo.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(48, 356);
+            this.label2.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.label2.Location = new System.Drawing.Point(51, 341);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 18);
+            this.label2.Size = new System.Drawing.Size(142, 24);
             this.label2.TabIndex = 9;
             this.label2.Text = "Observaciones";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 294);
+            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.label1.Location = new System.Drawing.Point(51, 279);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 18);
+            this.label1.Size = new System.Drawing.Size(52, 24);
             this.label1.TabIndex = 8;
             this.label1.Text = "Sexo";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(48, 240);
+            this.label4.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.label4.Location = new System.Drawing.Point(51, 225);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 18);
+            this.label4.Size = new System.Drawing.Size(58, 24);
             this.label4.TabIndex = 7;
             this.label4.Text = "Edad";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(48, 104);
+            this.label3.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.label3.Location = new System.Drawing.Point(51, 78);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 18);
+            this.label3.Size = new System.Drawing.Size(46, 24);
             this.label3.TabIndex = 6;
             this.label3.Text = "DNI";
             // 
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(48, 193);
+            this.lblApellido.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.lblApellido.Location = new System.Drawing.Point(51, 178);
             this.lblApellido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(62, 18);
+            this.lblApellido.Size = new System.Drawing.Size(89, 24);
             this.lblApellido.TabIndex = 5;
             this.lblApellido.Text = "Apellido";
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(48, 145);
+            this.lblNombre.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.lblNombre.Location = new System.Drawing.Point(51, 130);
             this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(62, 18);
+            this.lblNombre.Size = new System.Drawing.Size(87, 24);
             this.lblNombre.TabIndex = 4;
             this.lblNombre.Text = "Nombre";
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(289, 233);
-            this.txtEdad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEdad.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtEdad.Location = new System.Drawing.Point(289, 218);
+            this.txtEdad.Margin = new System.Windows.Forms.Padding(4);
             this.txtEdad.Name = "txtEdad";
-            this.txtEdad.Size = new System.Drawing.Size(160, 25);
+            this.txtEdad.Size = new System.Drawing.Size(255, 31);
             this.txtEdad.TabIndex = 3;
             // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(289, 97);
-            this.txtDNI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDNI.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtDNI.Location = new System.Drawing.Point(289, 71);
+            this.txtDNI.Margin = new System.Windows.Forms.Padding(4);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(160, 25);
+            this.txtDNI.Size = new System.Drawing.Size(255, 31);
             this.txtDNI.TabIndex = 2;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(289, 186);
-            this.txtApellido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtApellido.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtApellido.Location = new System.Drawing.Point(289, 171);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(4);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(160, 25);
+            this.txtApellido.Size = new System.Drawing.Size(255, 31);
             this.txtApellido.TabIndex = 1;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(289, 142);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Font = new System.Drawing.Font("Berlin Sans FB", 16F);
+            this.txtNombre.Location = new System.Drawing.Point(289, 123);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(160, 25);
+            this.txtNombre.Size = new System.Drawing.Size(255, 31);
             this.txtNombre.TabIndex = 0;
             // 
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.Black;
+            this.btnBack.Font = new System.Drawing.Font("Berlin Sans FB", 14F);
             this.btnBack.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBack.Location = new System.Drawing.Point(975, 636);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Location = new System.Drawing.Point(1142, 618);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(137, 62);
             this.btnBack.TabIndex = 15;
@@ -302,13 +320,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(95)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(1128, 735);
+            this.ClientSize = new System.Drawing.Size(1292, 735);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.gbxActualizarAlumno);
             this.Font = new System.Drawing.Font("Berlin Sans FB", 12F);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EditarAlumno";
             this.Text = "EditarAlumno";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.EditarAlumno_Load);
             this.gbxActualizarAlumno.ResumeLayout(false);
             this.gbxActualizarAlumno.PerformLayout();

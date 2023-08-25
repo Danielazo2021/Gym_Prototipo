@@ -95,5 +95,9 @@ namespace Proyecto_Gym_Forms.View
             this.Close();
         }
 
+        private void lblNombre_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
