@@ -85,7 +85,6 @@ C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Fo
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Release\Proyecto_Gym_Forms.csproj.AssemblyReference.cache
-C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Release\Proyecto_Gym_Forms.csproj.SuggestedBindingRedirects.cache
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Release\Proyecto_Gym_Forms.View.AgregarAlumno.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Release\Proyecto_Gym_Forms.View.ConsultarAsistencia.resources
 C:\Users\54351\Desktop\Daniel\Repositorios propios\Gym_Prototipo\Proyecto_Gym_Forms\obj\Release\Proyecto_Gym_Forms.View.ConsultarCuotasPorDia.resources

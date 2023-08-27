@@ -70,7 +70,7 @@ namespace Proyecto_Gym_Forms.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=DESKTOP-R28S6OC;Initial Catalog=GYM_LosGreccos;Integrated Security=True; TrustServerCertificate=true.
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-R28S6OC;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true.
         /// </summary>
         internal static string conexionBD_Tefi {
             get {
