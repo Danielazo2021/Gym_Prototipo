@@ -80,7 +80,7 @@ namespace Proyecto_Gym_Forms.View
 
         private void cargarCombo()
         {
-            string[] sexos = { "M", "F", "X" };
+            string[] sexos = { "F", "M", "X" };
             cboSexo.DataSource = sexos;
 
         }
