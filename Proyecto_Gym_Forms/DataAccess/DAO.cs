@@ -14,8 +14,9 @@ namespace Proyecto_Gym_Forms.DataAccess
 {
     public class DAO :IDAO
     {
-     
-        SqlConnection cnn = new SqlConnection(Properties.Resources.conexionBD);              
+       // SqlConnection cnn = new SqlConnection(Properties.Resources.conexionBD_Daniel);
+        SqlConnection cnn = new SqlConnection(Properties.Resources.conexionBD_Tefi);              
+
 
         public bool agregarAlumno(Alumno alumno)
         {

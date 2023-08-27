@@ -63,9 +63,18 @@ namespace Proyecto_Gym_Forms.Properties {
         /// <summary>
         ///   Busca una cadena traducida similar a Data Source=LAPTOP-SJP45N95;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true.
         /// </summary>
-        internal static string conexionBD {
+        internal static string conexionBD_Daniel {
             get {
-                return ResourceManager.GetString("conexionBD", resourceCulture);
+                return ResourceManager.GetString("conexionBD_Daniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-R28S6OC;Initial Catalog=GYM_LosGreccos;Integrated Security=True; TrustServerCertificate=true.
+        /// </summary>
+        internal static string conexionBD_Tefi {
+            get {
+                return ResourceManager.GetString("conexionBD_Tefi", resourceCulture);
             }
         }
     }
