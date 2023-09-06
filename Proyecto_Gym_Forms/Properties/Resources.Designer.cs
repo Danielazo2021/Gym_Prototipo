@@ -70,6 +70,15 @@ namespace Proyecto_Gym_Forms.Properties {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Data Source=DESKTOP-1C556V7;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true.
+        /// </summary>
+        internal static string conexionBD_Notebook_Gym {
+            get {
+                return ResourceManager.GetString("conexionBD_Notebook_Gym", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Data Source=DESKTOP-R28S6OC;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true.
         /// </summary>
         internal static string conexionBD_Tefi {

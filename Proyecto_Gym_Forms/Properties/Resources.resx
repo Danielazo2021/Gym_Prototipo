@@ -120,6 +120,9 @@
   <data name="conexionBD_Daniel" xml:space="preserve">
     <value>Data Source=LAPTOP-SJP45N95;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true</value>
   </data>
+  <data name="conexionBD_Notebook_Gym" xml:space="preserve">
+    <value>Data Source=DESKTOP-1C556V7;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true</value>
+  </data>
   <data name="conexionBD_Tefi" xml:space="preserve">
     <value>Data Source=DESKTOP-R28S6OC;Initial Catalog=GYM_LosGreccos;Integrated Security=True;TrustServerCertificate=true</value>
   </data>

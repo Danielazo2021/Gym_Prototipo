@@ -450,14 +450,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Proyecto_Gym_Forms.exe" size="161248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Proyecto_Gym_Forms.exe" size="161760">
       <assemblyIdentity name="Proyecto_Gym_Forms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>11e/ZD9/2qbQr1+EOl7d8AauTATvplqDrAoUH6TToAs=</dsig:DigestValue>
+        <dsig:DigestValue>J3NjMhC4OfODN7CI9Yy1DM18NWU4vVOvvVPecP4j+N0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -24,8 +24,40 @@ namespace Proyecto_Gym_Forms.View
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-          
-                Alumno alumno = new Alumno();
+            if (txtNombre.Text=="")
+            {
+                MessageBox.Show("No puede dejar campos sin llenar");
+                return;
+            }
+            if (txtApellido.Text == "")
+            {
+                MessageBox.Show("No puede dejar campos sin llenar");
+                return;
+            }
+            if (txtDNI.Text == "")
+            {
+                MessageBox.Show("No puede dejar campos sin llenar");
+                return;
+            }
+            if (txtEdad.Text == "")
+            {
+                MessageBox.Show("No puede dejar campos sin llenar");
+                return;
+            }
+            if (txtInfoEmergencia.Text == "")
+            {
+                MessageBox.Show("No puede dejar campos sin llenar");
+                return;
+            }
+            if (txtTelefono.Text == "")
+            {
+                MessageBox.Show("No puede dejar campos sin llenar");
+                return;
+            }
+
+
+
+            Alumno alumno = new Alumno();
                 alumno.nombre = txtNombre.Text;
                 alumno.apellido = txtApellido.Text;
                 alumno.dni = Convert.ToInt32(txtDNI.Text);
